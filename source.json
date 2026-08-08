@@ -1,0 +1,339 @@
+{
+  "name": "Kevin's Legit GitHub Sideload",
+  "identifier": "com.kevin.legit-github-sideload",
+  "subtitle": "100% open-source iOS apps with GitHub IPA releases",
+  "description": "A curated Sidestore/AltStore source of legit, open-source iOS apps that publish signed IPA files directly on GitHub Releases. No piracy, no repacks - every downloadURL points straight to the upstream repo. Verified 2026-08-08. Add this source in Sidestore/AltStore via Settings > Sources > Add Source.",
+  "iconURL": "https://github.com/KB01111.png",
+  "website": "https://github.com/KB01111/Sideload-Sources",
+  "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
+  "tintColor": "0A84FF",
+  "featuredApps": [
+    "com.rileytestut.Delta",
+    "org.provenance-emu.provenance",
+    "com.utmapp.UTM",
+    "org.ppsspp.ppsspp-free"
+  ],
+  "apps": [
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "developerName": "Riley Testut",
+      "subtitle": "All-in-one retro emulator (NES/SNES/N64/GBA/DS)",
+      "localizedDescription": "Delta is the official open-source successor to GBA4iOS. Supports NES, SNES, N64, Game Boy, Game Boy Advance and Nintendo DS with controller skins, save states, cheats and AirPlay. AGPL-3.0 licensed. Direct GitHub release — no patches.",
+      "iconURL": "https://github.com/RileyTestut.png",
+      "tintColor": "5CA9E6",
+      "category": "games",
+      "size": 87734964,
+      "version": "1.6",
+      "versionDate": "2024-07-11T01:08:23Z",
+      "versionDescription": "iPad support, brand new icon, melonDS 0.9.5, menu-button gestures. See https://github.com/RileyTestut/Delta/releases/tag/v1.6",
+      "downloadURL": "https://github.com/RileyTestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2024-07-11T01:08:23Z",
+          "size": 87734964,
+          "downloadURL": "https://github.com/RileyTestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+          "localizedDescription": "iPad support, Handoff, melonDS 0.9.5, menu gestures. Full notes: https://github.com/RileyTestut/Delta/releases/tag/v1.6",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "Multi-system emulator frontend for iOS/tvOS",
+      "localizedDescription": "The most complete iOS/tvOS frontend - Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony systems via one app. Supports 3.3.0 with iCloud sync, revamped tvOS UI, video filters. Build config: org.provenance-emu.provenance. Wiki: https://wiki.provenance-emu.com",
+      "iconURL": "https://github.com/Provenance-Emu.png",
+      "tintColor": "2B4C7E",
+      "category": "games",
+      "size": 1076407494,
+      "version": "3.3.0",
+      "versionDate": "2026-03-14T02:17:44Z",
+      "versionDescription": "Biggest release in 4 months: iCloud sync, tvOS redesign, video filters + core stability. https://github.com/Provenance-Emu/Provenance/releases/tag/3.3.0",
+      "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14T02:17:44Z",
+          "size": 1076407494,
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "localizedDescription": "iCloud sync, new tvOS interface, video filters. See release notes on GitHub.",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "UTM Team (osy)",
+      "subtitle": "Virtual machines for iOS & macOS (QEMU)",
+      "localizedDescription": "Run Windows, Linux and more in VMs on iOS. Full QEMU backend with JIT via AltJIT/StikDebug. Apache-2.0. The 4.7.5 IPA is the HV version (requires JIT). For non-JIT devices use UTM SE below. 34k+ stars.",
+      "iconURL": "https://github.com/utmapp.png",
+      "tintColor": "FF9500",
+      "category": "utilities",
+      "size": 130058389,
+      "version": "4.7.5",
+      "versionDate": "2026-01-03T17:51:54Z",
+      "versionDescription": "UTM 4.7.5 - includes UTM.ipa (HV), UTM-SE variants and visionOS builds. https://github.com/utmapp/UTM/releases/tag/v4.7.5",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "size": 130058389,
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "localizedDescription": "Full UTM with hypervisor/JIT. Requires JIT enabler (StikDebug/LiveContainer) on non-jailbroken devices.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "developerName": "UTM Team (osy)",
+      "subtitle": "UTM Slow Edition — no JIT required, App Store compliant",
+      "localizedDescription": "UTM SE is the App Store-compliant build that runs without JIT/hypervisor - slower but works without a JIT enabler. Ideal for sideloading if you don't want to manage JIT. Same 4.7.5 release as UTM.",
+      "iconURL": "https://github.com/utmapp.png",
+      "tintColor": "FF9500",
+      "category": "utilities",
+      "size": 213878374,
+      "version": "4.7.5",
+      "versionDate": "2026-01-03T17:51:54Z",
+      "versionDescription": "SE variant of 4.7.5 for devices without JIT. https://github.com/utmapp/UTM/releases/tag/v4.7.5",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "size": 213878374,
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
+          "localizedDescription": "Slow Edition - runs without JIT. Use this if you don't have StikDebug/JIT.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "PPSSPP",
+      "bundleIdentifier": "org.ppsspp.ppsspp-free",
+      "developerName": "Henrik Rydgard",
+      "subtitle": "PSP emulator (iOS, Android, Desktop)",
+      "localizedDescription": "The premiere PSP emulator - play your PSP ISOs on iOS with Vulkan/Metal, save states, networking and cheats. GPL-2.0+. Bundle ID org.ppsspp.ppsspp-free verified from ios/PPSSPP-Info.plist. 1.20.4 is latest iOS IPA.",
+      "iconURL": "https://github.com/hrydgard.png",
+      "tintColor": "1ABC9C",
+      "category": "games",
+      "size": 31124277,
+      "version": "1.20.4",
+      "versionDate": "2026-05-16T12:35:08Z",
+      "versionDescription": "https://github.com/hrydgard/ppsspp/releases/tag/v1.20.4",
+      "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+      "minOSVersion": "12.0",
+      "versions": [
+        {
+          "version": "1.20.4",
+          "date": "2026-05-16T12:35:08Z",
+          "size": 31124277,
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+          "localizedDescription": "Latest stable PPSSPP for iOS.",
+          "minOSVersion": "12.0"
+        }
+      ]
+    },
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "com.xitrix.iTorrent2",
+      "developerName": "XITRIX",
+      "subtitle": "Torrent client for iOS 16+",
+      "localizedDescription": "Native Swift torrent client with Files integration, magnet links, background downloads, RSS and media player. MIT licensed. Bundle com.xitrix.iTorrent2 (APPLICATION_ID). Active development, 3.1k stars.",
+      "iconURL": "https://github.com/XITRIX.png",
+      "tintColor": "34C759",
+      "category": "utilities",
+      "size": 24288935,
+      "version": "2.2.0",
+      "versionDate": "2026-07-19T09:59:41Z",
+      "versionDescription": "iTorrent 2.2.0-1 - latest GitHub IPA. https://github.com/XITRIX/iTorrent/releases/tag/v2.2.0-1",
+      "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+      "minOSVersion": "16.0",
+      "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2026-07-19T09:59:41Z",
+          "size": 24288935,
+          "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "localizedDescription": "Torrent client for iOS 16+ with background downloading.",
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara (khcrysalis)",
+      "subtitle": "On-device IPA signer & installer",
+      "localizedDescription": "Free on-device iOS app manager/installer using Apple Developer certificates - sign and install IPAs without a computer. GPL-3.0. Bundle thewonderofyou.Feather. Icon and repo via khcrysalis/Feather, IPA hosted at declration/Feather (official mirror).",
+      "iconURL": "https://github.com/khcrysalis.png",
+      "tintColor": "848EF9",
+      "category": "utilities",
+      "size": 14241853,
+      "version": "2.9.0",
+      "versionDate": "2026-07-05T02:11:53Z",
+      "versionDescription": "Feather 2.9.0 - https://github.com/khcrysalis/Feather releases (IPA via declration mirror)",
+      "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "2.9.0",
+          "date": "2026-07-05T02:11:53Z",
+          "size": 14241853,
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+          "localizedDescription": "On-device signing - import certs and install IPAs directly on iPhone.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer Team",
+      "subtitle": "Run iOS apps without installing them",
+      "localizedDescription": "Launch unsigned iOS apps in a container without actually installing them. Requires SideStore 0.6.2+ or AltStore 2.2.1+. Also available as LiveContainer+SideStore bundle. AGPL-3.0. 10k+ stars.",
+      "iconURL": "https://github.com/LiveContainer.png",
+      "tintColor": "AF52DE",
+      "category": "utilities",
+      "size": 4707271,
+      "version": "3.8.0",
+      "versionDate": "2026-07-17T07:44:20Z",
+      "versionDescription": "3.8.0 - standalone requires SideStore/AltStore. Use LiveContainer+SideStore.ipa with Impactor/iloader if standalone fails. https://github.com/LiveContainer/LiveContainer/releases/tag/3.8.0",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "size": 4707271,
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+          "localizedDescription": "Standalone LiveContainer (needs SideStore 0.6.2+).",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "SideStore",
+      "bundleIdentifier": "com.SideStore.SideStore",
+      "developerName": "SideStore Team",
+      "subtitle": "AltStore fork - no AltServer required",
+      "localizedDescription": "Community fork of AltStore that refreshes apps on-device via WireGuard/idevice pairing. AGPL-3.0. Use with LiveContainer or as your daily sidestore. Latest 0.6.3 fixes VPN on iOS 26.4+ (reinstall via iloader advised).",
+      "iconURL": "https://github.com/SideStore.png",
+      "tintColor": "00C7BE",
+      "category": "utilities",
+      "size": 28632252,
+      "version": "0.6.3",
+      "versionDate": "2026-05-05T03:59:02Z",
+      "versionDescription": "0.6.3 - iOS 26.4 VPN fix. https://github.com/SideStore/SideStore/releases/tag/0.6.3",
+      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "0.6.3",
+          "date": "2026-05-05T03:59:02Z",
+          "size": 28632252,
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
+          "localizedDescription": "AltStore fork with on-device refresh.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "iSH",
+      "bundleIdentifier": "app.ish.iSH",
+      "developerName": "ish-app (TBL)",
+      "subtitle": "Linux shell on iOS - Alpine via usermode x86 emulation",
+      "localizedDescription": "Run a full Alpine Linux shell on iOS - apk, python, git, ssh and more via lightning-fast usermode x86 emulation. No jailbreak. ROOT_BUNDLE_IDENTIFIER app.ish.iSH. Latest IPA builds/494 (2023 stable). Local iSH appstore available.",
+      "iconURL": "https://github.com/ish-app.png",
+      "tintColor": "000000",
+      "category": "utilities",
+      "size": 4232682,
+      "version": "494",
+      "versionDate": "2023-05-20T23:52:42Z",
+      "versionDescription": "builds/494 - diagnostics fix. https://github.com/ish-app/ish/releases/tag/builds/494",
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+      "minOSVersion": "11.0",
+      "versions": [
+        {
+          "version": "494",
+          "date": "2023-05-20T23:52:42Z",
+          "size": 4232682,
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+          "localizedDescription": "Linux shell for iOS - run Alpine packages on iPhone/iPad.",
+          "minOSVersion": "11.0"
+        }
+      ]
+    },
+    {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "developerName": "StiKDebug (StikDebug)",
+      "subtitle": "On-device debugger & JIT enabler for iOS 17.4+",
+      "localizedDescription": "Enable JIT for UTM/Provenance/Delta without a Mac/PC via idevice pairing. Required companion for UTM HV and many emulators on iOS 17.4+. AGPL-3.0. Uses the SideStore pairing flow.",
+      "iconURL": "https://github.com/StiKDebug.png",
+      "tintColor": "FF2D55",
+      "category": "developer",
+      "size": 12822956,
+      "version": "3.1.9",
+      "versionDate": "2026-08-01T20:09:58Z",
+      "versionDescription": "StikDebug 3.1.9 - https://github.com/StiKDebug/StikDebug/releases/tag/3.1.9",
+      "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+      "minOSVersion": "17.4",
+      "versions": [
+        {
+          "version": "3.1.9",
+          "date": "2026-08-01T20:09:58Z",
+          "size": 12822956,
+          "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+          "localizedDescription": "JIT enabler for iOS 17.4+ - pair once, enable JIT for any app.",
+          "minOSVersion": "17.4"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Welcome to Kevin's Legit Source",
+      "identifier": "welcome-2026-08-08",
+      "caption": "Every IPA here is 100% open-source and links straight to its GitHub Releases page. No ads, no trackers, no piracy. If an app disappears from this source, check the linked GitHub for newer releases.",
+      "date": "2026-08-08T00:00:00Z",
+      "tintColor": "0A84FF",
+      "imageURL": "https://github.com/SideStore.png",
+      "notify": true,
+      "url": "https://github.com"
+    },
+    {
+      "title": "How to add this source to Sidestore",
+      "identifier": "how-to-add-2026-08-08",
+      "caption": "In Sidestore go to Settings > Sources > Add Source and paste the raw URL to source.json (host this file on GitHub Pages, Gist, or any HTTPS host). Then browse the Apps tab - all GitHub IPAs will appear for one-tap install.",
+      "date": "2026-08-08T00:00:00Z",
+      "tintColor": "0A84FF",
+      "imageURL": "https://github.com/SideStore.png",
+      "notify": false
+    },
+    {
+      "title": "Legit only: why these 11 apps?",
+      "identifier": "legit-criteria-2026-08-08",
+      "caption": "Inclusion criteria: (1) public GitHub repo (2) OSI-approved license (3) tagged GitHub Release with .ipa asset (4) not a piracy/tweaked app. Excluded: RetroArch (no iOS IPA artifact on GH), Flycast (no iOS IPA), tweaked YouTube/Spotify forks (no standalone IPA).",
+      "date": "2026-08-08T00:00:00Z",
+      "tintColor": "34C759",
+      "imageURL": "https://github.com/hrydgard.png",
+      "notify": false
+    }
+  ]
+}
