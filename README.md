@@ -3,9 +3,9 @@
 A curated **AltStore / SideStore** source of iOS apps whose `.ipa` is published directly on **GitHub Releases**.
 
 - **Core 11**: 100% open-source, OSI-licensed (Delta/Provenance/UTM/PPSSPP/etc.)
-- **New 5 (2026-08-08)**: focused on **newer, high-value SwiftUI + tweaked apps** that ship a sideloadable `.ipa` (Spotube, BHTwitter, PojavLauncher, LBox, Apollo Patched). Tweaked IPAs are built from open patchers — not repacked piracy.
+- **New 13 (Aug 2026)**: newer / SwiftUI + tweaked / **AppDB** value picks — every `.ipa` is the project's official GitHub Release artifact (no repacked piracy).
 
-> Every `downloadURL` points straight to the upstream GitHub Release asset (all 16 verified `HEAD 200` on 2026-08-08).
+> Every `downloadURL` points straight to the upstream GitHub Release asset (all 24 verified `HEAD 200` on 2026-08-08).
 
 ## Quick add — LIVE on GitHub Pages
 
@@ -18,11 +18,11 @@ One-tap install links: [Add to SideStore](sidestore://source?url=https://kb01111
 Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://github.com/KB01111/Sideload-Sources
 
 1. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL above (or tap the one-tap link on your phone).
-2. Browse the **Apps/Browse** tab — all 16 apps appear for one-tap install/refresh.
+2. Browse the **Apps/Browse** tab — all 24 apps appear for one-tap install/refresh.
 
 > Tip: SideStore/AltStore caches the source. After you push an update to `source.json`, users pull-to-refresh the Sources screen to fetch it.
 
-## What's included (16 apps — 11 core + 5 new 2026-08-08)
+## What's included (24 apps — 16 + 8 new including AppDB)
 
 | App | Bundle ID | Version | What it is | License |
 |---|---|---|---|---|
@@ -42,8 +42,16 @@ Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://githu
 | **PojavLauncher** ✨ | `net.kdt.pojavlauncher` | 2.2 (2023-05-06) | Minecraft Java Edition on iOS | GPL-3.0 |
 | **LBox** ✨ SwiftUI | `Lolendor.LBox` | 1.2 (2025-12-08) | SwiftUI LiveContainer companion — browse/install IPAs | MIT |
 | **Apollo (Patched)** ✨ tweaked | `com.christianselig.Apollo` | 1.15.11-0.1.0 (2026-02-18) | Reddit Apollo revived — BYO API key | GPL-3.0 |
+| **AppDB** ✨ | `it.ned.appdb-ios` | 1.1.6 (2023-08-24) | Full client for appdb.to — sideload DB | MIT |
+| **Cowabunga** | `com.leemin.Cowabunga` | 10.3.2 (2023-05-29) | MacDirtyCow toolbox (iOS 14-16.1.2) | GPL-3.0 |
+| **Misaka** | `com.straighttamago.misaka` | 8.2.4 (2024-01-20) | KFD & MDC customisation (iOS/tvOS) | MIT |
+| **Yattee** | `stream.yattee.app` | 1.5.1 (2024-01-28) | Privacy YouTube player (iOS/tvOS) | AGPL-3.0 |
+| **Paperback** ✨ | `com.paperback.ios` | 0.8.11-r2 (2025-05-20) | Manga reader — extensions & tracking | — |
+| **DebToIPA** | `net.sourceloc.DebToIPA` | 1.1.1 (2022-10-18) | Convert .deb → .ipa on-device (SwiftUI) | GPL-3.0 |
+| **ModMyIPA** | `com.powen.ModMyIPA` | 1.0.2 (2022-10-26) | Duplicate any IPA (multi-install) | — |
+| **Azula** | `com.paisseon.Azula` | 1.0.1 (2023-03-16) | Inject dylibs into IPAs on-device | AGPL-3.0 |
 
-✨ = new in Aug 2026 update (newer / SwiftUI / tweaked value picks). All 16 sizes/URLs HEAD-checked.
+✨ = Aug 2026 value picks. All 24 sizes/URLs HEAD-checked.
 
 ## Inclusion criteria
 

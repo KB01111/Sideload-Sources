@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated Sidestore/AltStore source — 11 open-source classics + 5 newer picks (SwiftUI & tweaked value apps). Every downloadURL points straight to the upstream GitHub Release asset (16 verified HEAD 200 on 2026-08-08). Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated Sidestore/AltStore source — 24 apps: open-source classics + SwiftUI/tweaked value picks + AppDB. Every downloadURL is the upstream GitHub Release IPA (24 verified HEAD 200 on 2026-08-08). Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -434,23 +434,241 @@
           "minOSVersion": "14.0"
         }
       ]
+    },
+    {
+      "name": "Cowabunga",
+      "bundleIdentifier": "com.leemin.Cowabunga",
+      "developerName": "leminlimez",
+      "subtitle": "iOS 14-16.1.2 MacDirtyCow toolbox — themes, tweaks, no jailbreak",
+      "localizedDescription": "Cowabunga is the legendary MacDirtyCow toolbox for iOS 14.0-15.7.1 & 16.0-16.1.2: custom themes, icon theming, status bar tweaks, dock & folder mods and more without a jailbreak. GPL-3.0. v10.3.2 is the last stable IPA before KFD. A must-have for theming on supported versions.",
+      "iconURL": "https://github.com/leminlimez.png",
+      "tintColor": "30D158",
+      "category": "utilities",
+      "size": 16288960,
+      "version": "10.3.2",
+      "versionDate": "2023-05-29T20:49:25Z",
+      "versionDescription": "Cowabunga v10.3.2 — MacDirtyCow toolbox. https://github.com/leminlimez/Cowabunga/releases/tag/v10.3.2",
+      "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "10.3.2",
+          "date": "2023-05-29T20:49:25Z",
+          "size": 16288960,
+          "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+          "localizedDescription": "MacDirtyCow toolbox for iOS 14-16.1.2 — theming & system tweaks without jailbreak.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "Misaka",
+      "bundleIdentifier": "com.straighttamago.misaka",
+      "developerName": "straight-tamago",
+      "subtitle": "iOS & tvOS customisation for KFD & MDC — successor to Cowabunga",
+      "localizedDescription": "Misaka is the modern successor to Cowabunga supporting both KFD (kfd) and MDC exploits for iOS & tvOS customisation: themes, tweaks, PiP, always-on-display and more. MIT, 2.7k stars. v8.2.4 (2024-01-20) is the latest stable sideloadable IPA — broader device support than Cowabunga.",
+      "iconURL": "https://github.com/straight-tamago.png",
+      "tintColor": "BF5AF2",
+      "category": "utilities",
+      "size": 30742697,
+      "version": "8.2.4",
+      "versionDate": "2024-01-20T04:49:47Z",
+      "versionDescription": "Misaka v8.2.4 — KFD & MDC customisation. https://github.com/straight-tamago/misaka/releases/tag/8.2.4",
+      "downloadURL": "https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "8.2.4",
+          "date": "2024-01-20T04:49:47Z",
+          "size": 30742697,
+          "downloadURL": "https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa",
+          "localizedDescription": "KFD & MDC customisation tool — themes, tweaks for iOS/tvOS.",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Yattee",
+      "bundleIdentifier": "stream.yattee.app",
+      "developerName": "yattee",
+      "subtitle": "Privacy YouTube frontend for iOS/tvOS/macOS (AGPL)",
+      "localizedDescription": "Yattee is a privacy-focused YouTube player for iOS, tvOS and macOS with no ads, background playback, SponsorBlock and Invidious/Piped support. AGPL-3.0, SwiftUI, 3.6k stars. v1.5.1 is the last stable Release IPA before the 2.0 beta branch (beta has no stable IPA tag yet). Includes iOS + tvOS IPAs.",
+      "iconURL": "https://github.com/yattee.png",
+      "tintColor": "FF375F",
+      "category": "entertainment",
+      "size": 20792685,
+      "version": "1.5.1",
+      "versionDate": "2024-01-28T14:45:07Z",
+      "versionDescription": "Yattee v1.5.1 — privacy YouTube player. https://github.com/yattee/yattee/releases/tag/v1.5.1",
+      "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "1.5.1",
+          "date": "2024-01-28T14:45:07Z",
+          "size": 20792685,
+          "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
+          "localizedDescription": "Privacy YouTube player — no ads, background play, Invidious/Piped.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "Paperback",
+      "bundleIdentifier": "com.paperback.ios",
+      "developerName": "Paperback-iOS",
+      "subtitle": "Manga reader — extensions, tracking & downloads",
+      "localizedDescription": "Paperback is a modern, SwiftUI manga/comic reader for iOS with extension-based sources, library tracking, offline downloads and reader customisation. 775 stars, active 2025-05-20 release. The go-to open-source Tachiyomi-style app for iOS. v0.8.11-r2 is the latest sideloadable IPA.",
+      "iconURL": "https://github.com/Paperback-iOS.png",
+      "tintColor": "FF9F0A",
+      "category": "books",
+      "size": 13597210,
+      "version": "0.8.11-r2",
+      "versionDate": "2025-05-20T13:56:35Z",
+      "versionDescription": "Paperback v0.8.11-r2. https://github.com/Paperback-iOS/app/releases/tag/v0.8.11-r2",
+      "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.8.11-r2/Paperback.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "0.8.11-r2",
+          "date": "2025-05-20T13:56:35Z",
+          "size": 13597210,
+          "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.8.11-r2/Paperback.ipa",
+          "localizedDescription": "Manga reader with extensions — track, download and read offline.",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "DebToIPA",
+      "bundleIdentifier": "net.sourceloc.DebToIPA",
+      "developerName": "sourcelocation",
+      "subtitle": "Convert .deb tweaks to .ipa on-device (SwiftUI)",
+      "localizedDescription": "DebToIPA converts jailbreak .deb packages into sideloadable .ipa files directly on iOS — locally, no PC. GPL-3.0, SwiftUI, essential companion for BHTwitter/Apollo and any deb-based tweak. v1.1.1 is the latest Release IPA.",
+      "iconURL": "https://github.com/sourcelocation.png",
+      "tintColor": "0A84FF",
+      "category": "developer",
+      "size": 1238055,
+      "version": "1.1.1",
+      "versionDate": "2022-10-18T21:37:30Z",
+      "versionDescription": "DebToIPA v1.1.1 — convert .deb to .ipa on device. https://github.com/sourcelocation/DebToIPA/releases/tag/1.1.1",
+      "downloadURL": "https://github.com/sourcelocation/DebToIPA/releases/download/1.1.1/DebToIPA-1.1.1.ipa",
+      "minOSVersion": "13.0",
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2022-10-18T21:37:30Z",
+          "size": 1238055,
+          "downloadURL": "https://github.com/sourcelocation/DebToIPA/releases/download/1.1.1/DebToIPA-1.1.1.ipa",
+          "localizedDescription": "Convert .deb to .ipa on-device — tweak installer helper.",
+          "minOSVersion": "13.0"
+        }
+      ]
+    },
+    {
+      "name": "ModMyIPA",
+      "bundleIdentifier": "com.powen.ModMyIPA",
+      "developerName": "powenn",
+      "subtitle": "Duplicate any IPA — install multiple copies side-by-side",
+      "localizedDescription": "ModMyIPA lets you modify an IPA's bundle ID so you can install multiple copies of the same app side-by-side (handy for dual accounts, testing tweaked variants). Swift-based, 539 stars. v1.0.2 latest Release IPA.",
+      "iconURL": "https://github.com/powenn.png",
+      "tintColor": "64D2FF",
+      "category": "utilities",
+      "size": 2447058,
+      "version": "1.0.2",
+      "versionDate": "2022-10-26T07:34:08Z",
+      "versionDescription": "ModMyIPA v1.0.2 — duplicate IPAs with new bundle IDs. https://github.com/powenn/ModMyIPA/releases/tag/1.0.2",
+      "downloadURL": "https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa",
+      "minOSVersion": "13.0",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2022-10-26T07:34:08Z",
+          "size": 2447058,
+          "downloadURL": "https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa",
+          "localizedDescription": "Modify IPA bundle ID to install duplicates of any app.",
+          "minOSVersion": "13.0"
+        }
+      ]
+    },
+    {
+      "name": "Azula",
+      "bundleIdentifier": "com.paisseon.Azula",
+      "developerName": "Paisseon",
+      "subtitle": "Inject dylibs into IPAs on-device (SwiftUI + ElleKit)",
+      "localizedDescription": "Azula injects dynamic libraries (dylibs) into any IPA directly on iOS 14-16 / macOS 11-13 — the on-device alternative to Azule/Insert_dylib. AGPL-3.0, SwiftUI, handy for patching BHTwitter, Apollo, etc. v1.0.1 latest Release IPA (also has macOS dmg).",
+      "iconURL": "https://github.com/Paisseon.png",
+      "tintColor": "5E5CE6",
+      "category": "developer",
+      "size": 1532047,
+      "version": "1.0.1",
+      "versionDate": "2023-03-16T20:43:47Z",
+      "versionDescription": "Azula v1.0.1 — inject dylibs into IPAs on device. https://github.com/Paisseon/Azula/releases/tag/v1.0.1",
+      "downloadURL": "https://github.com/Paisseon/Azula/releases/download/v1.0.1/Azula.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2023-03-16T20:43:47Z",
+          "size": 1532047,
+          "downloadURL": "https://github.com/Paisseon/Azula/releases/download/v1.0.1/Azula.ipa",
+          "localizedDescription": "Inject dylibs into IPAs on-device — tweak patcher.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "AppDB",
+      "bundleIdentifier": "it.ned.appdb-ios",
+      "developerName": "n3d1117",
+      "subtitle": "Full client for appdb.to — sideloaded apps database",
+      "localizedDescription": "AppDB is the fully-featured iOS client for appdb.to — browse, search, crack and install thousands of sideloaded IPAs with custom store management. Swift 5, MIT, 351 stars. v1.1.6 is the latest Release IPA (stev3fvcks build). Your portal to the wider sideloading ecosystem.",
+      "iconURL": "https://github.com/n3d1117.png",
+      "tintColor": "FF3B30",
+      "category": "utilities",
+      "size": 23229778,
+      "version": "1.1.6",
+      "versionDate": "2023-08-24T09:47:30Z",
+      "versionDescription": "AppDB v1.1.6 — full appdb.to client. https://github.com/n3d1117/appdb/releases/tag/v1.1.6",
+      "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.6/appdb-v1.1.6-stev3fvcks.ipa",
+      "minOSVersion": "12.0",
+      "versions": [
+        {
+          "version": "1.1.6",
+          "date": "2023-08-24T09:47:30Z",
+          "size": 23229778,
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.6/appdb-v1.1.6-stev3fvcks.ipa",
+          "localizedDescription": "Full-featured appdb.to client — browse and install cracked IPAs.",
+          "minOSVersion": "12.0"
+        }
+      ]
     }
   ],
   "news": [
     {
+      "title": "UPDATE: AppDB + 7 more added — 24 apps live!",
+      "identifier": "update-2026-08-08-appdb-plus7",
+      "caption": "NEW: AppDB (full appdb.to client) plus Cowabunga & Misaka (MDC/KFD theming), Yattee (privacy YouTube), Paperback (manga), DebToIPA/ModMyIPA/Azula (on-device patch helpers). All are official GitHub Release IPAs — pull-to-refresh Sources to update.",
+      "date": "2026-08-08T16:00:00Z",
+      "tintColor": "FF3B30",
+      "imageURL": "https://github.com/n3d1117.png",
+      "notify": true,
+      "url": "https://github.com/KB01111/Sideload-Sources"
+    },
+    {
       "title": "Update: 5 new SwiftUI + tweaked picks added!",
       "identifier": "update-2026-08-08-new5",
-      "caption": "NEW: Spotube (open Spotify client), BHTwitter (tweaked X), PojavLauncher (Minecraft Java), LBox (SwiftUI LiveContainer manager) and Apollo Patched (revived Reddit). All are official GitHub Release IPAs — tap to update/pull-to-refresh Sources. No local builds required.",
+      "caption": "NEW: Spotube (open Spotify client), BHTwitter (tweaked X), PojavLauncher (Minecraft Java), LBox (SwiftUI LiveContainer manager) and Apollo Patched (revived Reddit). All are official GitHub Release IPAs — tap to update/pull-to-refresh Sources.",
       "date": "2026-08-08T12:00:00Z",
       "tintColor": "FF2D55",
       "imageURL": "https://github.com/Lolendor.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/KB01111/Sideload-Sources"
     },
     {
       "title": "Welcome to Kevin's Legit Source",
       "identifier": "welcome-2026-08-08",
-      "caption": "Core 11 are 100% open-source; new 5 are vetted tweaked/SwiftUI value apps. Every IPA links straight to its upstream GitHub Release — no repacks, no ads. If an app vanishes, check the linked GitHub tag for a newer IPA.",
+      "caption": "24 apps — open-source classics, SwiftUI value apps, vetted tweaked patchers and AppDB. Every IPA links straight to its upstream GitHub Release — no repacks. If an app vanishes, check its linked tag for a newer IPA.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "0A84FF",
       "imageURL": "https://github.com/SideStore.png",
@@ -460,16 +678,16 @@
     {
       "title": "How to add this source to Sidestore",
       "identifier": "how-to-add-2026-08-08",
-      "caption": "Sidestore: Settings > Sources > Add Source > paste https://kb01111.github.io/Sideload-Sources/source.json . AltStore: Sources > + > same URL. Or tap the link at https://kb01111.github.io/Sideload-Sources/ on your iPhone.",
+      "caption": "Sidestore: Settings > Sources > Add Source > paste https://kb01111.github.io/Sideload-Sources/source.json . AltStore: Sources > + > same URL. Or tap at https://kb01111.github.io/Sideload-Sources/ on your iPhone.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "0A84FF",
       "imageURL": "https://github.com/SideStore.png",
       "notify": false
     },
     {
-      "title": "Why these 16? Criteria & exclusions",
+      "title": "Why these 24? Criteria",
       "identifier": "legit-criteria-2026-08-08",
-      "caption": "All 16 have a tagged GitHub Release with an IPA asset. Core = OSI license + no piracy. New 5 = open patcher/SwiftUI value where the published IPA is the project's official artifact (BHTwitter-sideloaded, ApolloPatcher, etc.). Excluded: uYou+/Enhanced, YTLitePlus, EeveeSpotify (451) — they publish no Release IPA artifact.",
+      "caption": "All 24 have a tagged GitHub Release with a .ipa asset. Core = OSI + no piracy. Value = SwiftUI / patcher / AppDB where the IPA is the project's official artifact. Excluded: uYou+/Enhanced, YTLitePlus, EeveeSpotify (451) — no Release IPA.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "34C759",
       "imageURL": "https://github.com/hrydgard.png",
