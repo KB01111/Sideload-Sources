@@ -3,9 +3,9 @@
 A curated **AltStore / SideStore** source of iOS apps whose `.ipa` is published directly on **GitHub Releases**.
 
 - **Core 11**: 100% open-source, OSI-licensed (Delta/Provenance/UTM/PPSSPP/etc.)
-- **New 14 (Aug 2026)**: newer / SwiftUI + tweaked / **AppDB + TrollRecorder call recorder** — every `.ipa`/`.tipa` is the project's official GitHub Release artifact (no repacked piracy).
+- **New 13 (Aug 2026)**: newer / SwiftUI + tweaked / **AppDB** value picks — every `.ipa` is the project's official GitHub Release artifact (no repacked piracy).
 
-> Every `downloadURL` points straight to the upstream GitHub Release asset (all 25 verified `HEAD 200` on 2026-08-08).
+> Every `downloadURL` points straight to the upstream GitHub Release asset (all 24 Sidestore-installable verified `HEAD 200` on 2026-08-08). **TrollRecorder call recorder excluded** — requires TrollStore (iOS 15-17 CoreTrust) and cannot install via Sidestore/AltStore (see below).
 
 ## Quick add — LIVE on GitHub Pages
 
@@ -18,11 +18,11 @@ One-tap install links: [Add to SideStore](sidestore://source?url=https://kb01111
 Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://github.com/KB01111/Sideload-Sources
 
 1. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL above (or tap the one-tap link on your phone).
-2. Browse the **Apps/Browse** tab — all 25 apps appear for one-tap install/refresh.
+2. Browse the **Apps/Browse** tab — all 24 apps appear for one-tap install/refresh.
 
 > Tip: SideStore/AltStore caches the source. After you push an update to `source.json`, users pull-to-refresh the Sources screen to fetch it.
 
-## What's included (25 apps — 16 + 9 new including AppDB & TrollRecorder)
+## What's included (24 apps — Sidestore-installable, 16 + 8 new incl. AppDB)
 
 | App | Bundle ID | Version | What it is | License |
 |---|---|---|---|---|
@@ -50,9 +50,10 @@ Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://githu
 | **DebToIPA** | `net.sourceloc.DebToIPA` | 1.1.1 (2022-10-18) | Convert .deb → .ipa on-device (SwiftUI) | GPL-3.0 |
 | **ModMyIPA** | `com.powen.ModMyIPA` | 1.0.2 (2022-10-26) | Duplicate any IPA (multi-install) | — |
 | **Azula** | `com.paisseon.Azula` | 1.0.1 (2023-03-16) | Inject dylibs into IPAs on-device | AGPL-3.0 |
-| **TrollRecorder** ✨ call recorder | `wiki.qaq.trapp` | 4.5-3632 (2026-08-06) | Phone call recorder via TrollStore (.tipa) | AGPL-3.0 |
 
-✨ = Aug 2026 value picks. All 25 sizes/URLs HEAD-checked. TrollRecorder `.tipa` is a renamed `.ipa` — install via TrollStore/LiveContainer (requires iOS 15-17, TrollStore-only per upstream).
+✨ = Aug 2026 value picks. All 24 sizes/URLs HEAD-checked.
+
+> **Call recorder?** The only open-source iOS call recorder on GitHub is **TrollRecorder** (`Lessica/TrollRecorder` AGPL-3.0, 2065★, `wiki.qaq.trapp` v4.5-3632 `TRApp_4.5-3632.tipa`). It **requires TrollStore (iOS 15.0-17.0)** and explicitly lists *eSign / LiveContainer as not supported*. That's why you can't install it via Sidestore — Apple blocks call recording in the sandbox; only TrollStore CoreTrust can grant the entitlement. **We removed TrollRecorder from this Sidestore source** — TrollStore users can still install the `.tipa` directly from `https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632`. No Sidestore-compatible call recorder with a GitHub Release `.ipa` exists (searched `call recorder ios` + `appdb` + all sideload repos).
 
 ## Inclusion criteria
 

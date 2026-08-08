@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated Sidestore/AltStore source — 25 apps incl. AppDB + TrollRecorder call recorder. Every downloadURL is the upstream GitHub Release IPA/tipa (25 verified HEAD 200 on 2026-08-08). Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated Sidestore/AltStore source — 24 Sidestore-installable IPAs (open-source + SwiftUI/tweaked + AppDB). Every downloadURL is the upstream GitHub Release IPA (24 verified HEAD 200 on 2026-08-08). TrollRecorder call recorder is TrollStore-only (see README) and not included in this Sidestore source. Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -642,44 +642,18 @@
           "minOSVersion": "12.0"
         }
       ]
-    },
-    {
-      "name": "TrollRecorder",
-      "bundleIdentifier": "wiki.qaq.trapp",
-      "developerName": "Lessica (Tweaked)",
-      "subtitle": "Call recorder for iOS — works via TrollStore (tipa)",
-      "localizedDescription": "TrollRecorder is the best open-source call recorder for iOS — automatic call recording via TrollStore's CoreTrust bypass. AGPL-3.0, 2065★. Requires TrollStore (iOS 15.0-17.0, NOT for eSign/LiveContainer). This is the official TrollStore build: TRApp_4.5-3632.tipa (same as IPA, just renamed for TrollStore). Sidestore/AltStore users: you can still install this tipa via LiveContainer or TrollStore directly. Free core, Pro unlocks advanced features.",
-      "iconURL": "https://github.com/Lessica.png",
-      "tintColor": "FF2D55",
-      "category": "utilities",
-      "size": 18941724,
-      "version": "4.5-3632",
-      "versionDate": "2026-08-06T09:07:39Z",
-      "versionDescription": "TrollRecorder v4.5-3632 — call recorder via TrollStore. https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632 — also has jailbreak .debs.",
-      "downloadURL": "https://github.com/Lessica/TrollRecorder/releases/download/v4.5-3632/TRApp_4.5-3632.tipa",
-      "minOSVersion": "15.0",
-      "versions": [
-        {
-          "version": "4.5-3632",
-          "date": "2026-08-06T09:07:39Z",
-          "size": 18941724,
-          "downloadURL": "https://github.com/Lessica/TrollRecorder/releases/download/v4.5-3632/TRApp_4.5-3632.tipa",
-          "localizedDescription": "TrollStore call recorder — auto-records calls (iOS 15-17). Install via TrollStore or LiveContainer.",
-          "minOSVersion": "15.0"
-        }
-      ]
     }
   ],
   "news": [
     {
-      "title": "UPDATE: Call recorder added — TrollRecorder!",
-      "identifier": "update-2026-08-08-trollrecorder",
-      "caption": "NEW: TrollRecorder — the best open-source call recorder for iOS (via TrollStore, iOS 15-17). Tipa is a renamed IPA — install via TrollStore/LiveContainer. Plus AppDB + 7 more. 25 apps live — pull-to-refresh Sources.",
+      "title": "Call recorder? TrollRecorder is TrollStore-only",
+      "identifier": "note-call-recorder-2026-08-08",
+      "caption": "TrollRecorder (Lessica) is the only open-source iOS call recorder on GitHub, but it requires TrollStore (iOS 15-17, CoreTrust). It can NOT install via Sidestore/AltStore — Apple blocks call recording in the sandbox. We removed it from this Sidestore source; TrollStore users can install TRApp_4.5-3632.tipa directly from https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632. No Sidestore-compatible call recorder exists.",
       "date": "2026-08-08T18:00:00Z",
-      "tintColor": "FF2D55",
+      "tintColor": "8E8E93",
       "imageURL": "https://github.com/Lessica.png",
       "notify": true,
-      "url": "https://github.com/KB01111/Sideload-Sources"
+      "url": "https://github.com/Lessica/TrollRecorder"
     },
     {
       "title": "UPDATE: AppDB + 7 more added — 24 apps live!",

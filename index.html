@@ -16,7 +16,7 @@ a{color:#0A84FF}
 </head>
 <body>
 <h1>Kevin's Legit GitHub Sideload</h1>
-<p class="small">Open-source classics + SwiftUI / tweaked helpers + AppDB + call recorder — every IPA straight from GitHub Releases. For SideStore / AltStore. <span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:6px;font-weight:600;">25 apps</span> — TrollRecorder added 2026-08-08.</p>
+<p class="small">Open-source classics + SwiftUI / tweaked helpers + AppDB — every IPA straight from GitHub Releases. For SideStore / AltStore. <span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:6px;font-weight:600;">24 apps</span> — Sidestore-installable only (call recorder = TrollStore-only, see README).</p>
 
 <div class="card">
 <h2 style="margin-top:0">Add to SideStore</h2>
@@ -28,21 +28,20 @@ a{color:#0A84FF}
 </div>
 
 <div class="card">
-<h3 style="margin-top:0">What's inside (25 apps — 11 core + 14 value)</h3>
+<h3 style="margin-top:0">What's inside (24 apps — 11 core + 13 value incl. AppDB)</h3>
 <ul>
 <li><strong>Emulators:</strong> Delta, Provenance, UTM / UTM SE, PPSSPP, <em>PojavLauncher</em> ✨</li>
 <li><strong>Music / Social:</strong> <em>Spotube</em> ✨, <em>BHTwitter</em> ✨, <em>Apollo Patched</em> ✨, <em>Yattee</em> (privacy YouTube), <em>Paperback</em> (manga)</li>
 <li><strong>Theming:</strong> <em>Cowabunga</em> (MDC 14-16.1.2), <em>Misaka</em> (KFD+MDC)</li>
 <li><strong>Sideloading &amp; helpers:</strong> Feather, LiveContainer, <em>LBox</em> ✨, SideStore, StikDebug, <em>DebToIPA</em>, <em>ModMyIPA</em>, <em>Azula</em></li>
-<li><strong>Other:</strong> iTorrent, iSH, <em>AppDB</em> — full appdb.to client, <em>TrollRecorder</em> — call recorder ✨</li>
+<li><strong>Other:</strong> iTorrent, iSH, <em>AppDB</em> — full appdb.to client</li>
 </ul>
-<p class="small">All 25 IPAs are the official GitHub Release assets — verified HEAD 200 on 2026-08-08.</p>
+<p class="small">All 24 IPAs are Sidestore-installable and verified HEAD 200 on 2026-08-08.</p>
 <p><a href="source.json">View source.json</a> &middot; <a href="https://github.com/KB01111/Sideload-Sources">GitHub repo</a></p>
 </div>
 <div class="card" style="background:#fff7ed;border-color:#fed7aa">
-<h3 style="margin-top:0">✨ New — TrollRecorder call recorder + AppDB</h3>
+<h3 style="margin-top:0">✨ New — AppDB + helpers</h3>
 <ul>
-<li><strong>TrollRecorder</strong> — call recorder via TrollStore — <code>TRApp_4.5-3632.tipa v4.5</code> (iOS 15-17, AGPL-3.0) — <em>requires TrollStore, not eSign/LiveContainer per upstream</em></li>
 <li><strong>AppDB</strong> — full-featured appdb.to client — <code>appdb-v1.1.6-stev3fvcks.ipa</code></li>
 <li><strong>Cowabunga</strong> / <strong>Misaka</strong> — MDC/KFD theming &amp; toolbox</li>
 <li><strong>Yattee</strong> — privacy YouTube (iOS/tvOS, SponsorBlock) — <code>Yattee-1.5.1-iOS.ipa</code></li>
@@ -50,6 +49,10 @@ a{color:#0A84FF}
 <li><strong>DebToIPA</strong> / <strong>ModMyIPA</strong> / <strong>Azula</strong> — on-device patch helpers (SwiftUI)</li>
 </ul>
 <p class="small">Pull-to-refresh Sources in SideStore to get the update. Also added earlier: Spotube, BHTwitter, PojavLauncher, LBox, Apollo Patched.</p>
+</div>
+<div class="card" style="background:#f4f4f5;border-color:#e4e4e7">
+<h3 style="margin-top:0">📞 Call recorder?</h3>
+<p class="small">The only open-source iOS call recorder on GitHub is <strong>TrollRecorder</strong> (<code>Lessica/TrollRecorder</code> v4.5-3632, <code>wiki.qaq.trapp</code>). It <strong>requires TrollStore (iOS 15-17 CoreTrust)</strong> and the upstream explicitly says <em>eSign / LiveContainer not supported</em> — so it <strong>can't install via Sidestore</strong> (Apple blocks the telephony entitlement in the sandbox). We removed it from this source; TrollStore users can install <code>TRApp_4.5-3632.tipa</code> directly from <a href="https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632">the Release page</a>. No Sidestore-compatible call recorder with a GitHub Release IPA exists.</p>
 </div>
 
 <p class="small">Bundle IDs verified from Info.plist / project.pbxproj / xcconfig. Icons are GitHub avatars. Want updates? Watch the repo - bump version/size/downloadURL when upstream tags a new release.</p>
