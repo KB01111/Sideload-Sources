@@ -1,8 +1,8 @@
 {
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
-  "subtitle": "100% open-source iOS apps with GitHub IPA releases",
-  "description": "A curated Sidestore/AltStore source of legit, open-source iOS apps that publish signed IPA files directly on GitHub Releases. No piracy, no repacks - every downloadURL points straight to the upstream repo. Verified 2026-08-08. Add this source in Sidestore/AltStore via Settings > Sources > Add Source.",
+  "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
+  "description": "Curated Sidestore/AltStore source — 11 open-source classics + 5 newer picks (SwiftUI & tweaked value apps). Every downloadURL points straight to the upstream GitHub Release asset (16 verified HEAD 200 on 2026-08-08). Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -304,32 +304,172 @@
           "minOSVersion": "17.4"
         }
       ]
+    },
+    {
+      "name": "Spotube",
+      "bundleIdentifier": "oss.krtirtho.spotube",
+      "developerName": "KRTirtho (Spotube)",
+      "subtitle": "Open-source Spotify client — no premium needed (SwiftUI/Flutter)",
+      "localizedDescription": "Spotube is a lightweight, privacy-friendly Spotify frontend that streams from YouTube Music / Piped — no Spotify premium required. SwiftUI/Flutter codebase, GPL-3.0 friendly, 48k+ stars. This iOS IPA is the official GitHub Release (Spotube-iOS.ipa). Newest value pick for 2026.",
+      "iconURL": "https://github.com/KRTirtho.png",
+      "tintColor": "1DB954",
+      "category": "music",
+      "size": 34853093,
+      "version": "5.1.2",
+      "versionDate": "2026-06-05T05:10:18Z",
+      "versionDescription": "Spotube v5.1.2 — open-source music streaming. https://github.com/KRTirtho/spotube/releases/tag/v5.1.2",
+      "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "5.1.2",
+          "date": "2026-06-05T05:10:18Z",
+          "size": 34853093,
+          "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+          "localizedDescription": "Open-source Spotify client with YouTube/Piped backend. No account needed.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "BHTwitter",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "BandarHL",
+      "subtitle": "Tweaked Twitter/X — ad block, download, premium unlock (tweaked)",
+      "localizedDescription": "BHTwitter is the most complete Twitter/X tweak: block ads & promoted tweets, download videos/images, hide trends, unlock premium features and custom themes. Injected into a decrypted Twitter IPA — sideloaded variant keeps original bundle com.atebits.Tweetie2 so it replaces the App Store app. Also available as BHTwitter-trollstore.tipa. v4.4 (2025-05-13).",
+      "iconURL": "https://github.com/BandarHL.png",
+      "tintColor": "1DA1F2",
+      "category": "social",
+      "size": 167001383,
+      "version": "4.4",
+      "versionDate": "2025-05-13T20:33:01Z",
+      "versionDescription": "BHTwitter 4.4 sideloaded. https://github.com/BandarHL/BHTwitter/releases/tag/4.4 — also has trollstore.tipa + debs.",
+      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "4.4",
+          "date": "2025-05-13T20:33:01Z",
+          "size": 167001383,
+          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+          "localizedDescription": "Tweaked Twitter with ad-block, media downloads and premium unlock.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "PojavLauncher",
+      "bundleIdentifier": "net.kdt.pojavlauncher",
+      "developerName": "PojavLauncherTeam",
+      "subtitle": "Minecraft: Java Edition on iOS (Swift/ObjC + Java)",
+      "localizedDescription": "Run Minecraft Java Edition natively on iOS — full Java runtime, mod & Fabric/Forge support, touch controls and controller. GPL-3.0. Successor Amethyst-iOS is in dev, but this 2.2 IPA (2023-05-06) remains the last stable sideloadable build and still brings unique value. Requires JIT for best performance (pair with StikDebug).",
+      "iconURL": "https://github.com/PojavLauncherTeam.png",
+      "tintColor": "62B47A",
+      "category": "games",
+      "size": 108175347,
+      "version": "2.2",
+      "versionDate": "2023-05-06T20:56:25Z",
+      "versionDescription": "PojavLauncher iOS v2.2 — Minecraft Java on iOS. https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/tag/v2.2",
+      "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "2.2",
+          "date": "2023-05-06T20:56:25Z",
+          "size": 108175347,
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
+          "localizedDescription": "Minecraft Java Edition launcher for iOS — mods, shaders, multiplayer.",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "LBox",
+      "bundleIdentifier": "Lolendor.LBox",
+      "developerName": "Lolendor",
+      "subtitle": "SwiftUI repo manager for LiveContainer (NEW 2025)",
+      "localizedDescription": "LBox is a native SwiftUI companion for LiveContainer — browse public sources, search and download IPAs, and install/launch apps directly on device with seamless LiveContainer integration. MIT, fully SwiftUI, newest value app on the source (v1.2 — 2025-12-08). Perfect pairing with LiveContainer + SideStore.",
+      "iconURL": "https://github.com/Lolendor.png",
+      "tintColor": "5856D6",
+      "category": "utilities",
+      "size": 614768,
+      "version": "1.2",
+      "versionDate": "2025-12-08T02:13:43Z",
+      "versionDescription": "LBox v1.2 — SwiftUI LiveContainer source browser. https://github.com/Lolendor/LBox/releases/tag/v1.2",
+      "downloadURL": "https://github.com/Lolendor/LBox/releases/download/v1.2/LBox.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2025-12-08T02:13:43Z",
+          "size": 614768,
+          "downloadURL": "https://github.com/Lolendor/LBox/releases/download/v1.2/LBox.ipa",
+          "localizedDescription": "SwiftUI repository manager for LiveContainer — browse, download and launch IPAs.",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Apollo (Patched)",
+      "bundleIdentifier": "com.christianselig.Apollo",
+      "developerName": "ichitaso (ApolloPatcher)",
+      "subtitle": "Reddit's Apollo — revived with custom API key (tweaked)",
+      "localizedDescription": "Apollo was sunset in 2023 — ApolloPatcher revives it by patching your own Reddit API key at runtime. This sideloaded IPA (Apollo 1.15.11 patched with 0.1.0) restores the best Reddit client on iOS. GPL-3.0, fully open patcher. You supply your own client ID/secret in settings. For fans of the classic Apollo experience.",
+      "iconURL": "https://github.com/ichitaso.png",
+      "tintColor": "FF4500",
+      "category": "social",
+      "size": 111555956,
+      "version": "1.15.11-0.1.0",
+      "versionDate": "2026-02-18T11:15:37Z",
+      "versionDescription": "ApolloPatched v0.1.0 — Apollo 1.15.11 with custom API key support. https://github.com/ichitaso/ApolloPatcher/releases/tag/v0.1.0",
+      "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.1.0/Apollo-1.15.11_ApolloPatcher_0.1.0.ipa",
+      "minOSVersion": "14.0",
+      "versions": [
+        {
+          "version": "1.15.11-0.1.0",
+          "date": "2026-02-18T11:15:37Z",
+          "size": 111555956,
+          "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.1.0/Apollo-1.15.11_ApolloPatcher_0.1.0.ipa",
+          "localizedDescription": "Revived Apollo with configurable Reddit API key — bring your own credentials.",
+          "minOSVersion": "14.0"
+        }
+      ]
     }
   ],
   "news": [
     {
+      "title": "Update: 5 new SwiftUI + tweaked picks added!",
+      "identifier": "update-2026-08-08-new5",
+      "caption": "NEW: Spotube (open Spotify client), BHTwitter (tweaked X), PojavLauncher (Minecraft Java), LBox (SwiftUI LiveContainer manager) and Apollo Patched (revived Reddit). All are official GitHub Release IPAs — tap to update/pull-to-refresh Sources. No local builds required.",
+      "date": "2026-08-08T12:00:00Z",
+      "tintColor": "FF2D55",
+      "imageURL": "https://github.com/Lolendor.png",
+      "notify": true,
+      "url": "https://github.com/KB01111/Sideload-Sources"
+    },
+    {
       "title": "Welcome to Kevin's Legit Source",
       "identifier": "welcome-2026-08-08",
-      "caption": "Every IPA here is 100% open-source and links straight to its GitHub Releases page. No ads, no trackers, no piracy. If an app disappears from this source, check the linked GitHub for newer releases.",
+      "caption": "Core 11 are 100% open-source; new 5 are vetted tweaked/SwiftUI value apps. Every IPA links straight to its upstream GitHub Release — no repacks, no ads. If an app vanishes, check the linked GitHub tag for a newer IPA.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "0A84FF",
       "imageURL": "https://github.com/SideStore.png",
-      "notify": true,
-      "url": "https://github.com"
+      "notify": false,
+      "url": "https://github.com/KB01111/Sideload-Sources"
     },
     {
       "title": "How to add this source to Sidestore",
       "identifier": "how-to-add-2026-08-08",
-      "caption": "In Sidestore go to Settings > Sources > Add Source and paste the raw URL to source.json (host this file on GitHub Pages, Gist, or any HTTPS host). Then browse the Apps tab - all GitHub IPAs will appear for one-tap install.",
+      "caption": "Sidestore: Settings > Sources > Add Source > paste https://kb01111.github.io/Sideload-Sources/source.json . AltStore: Sources > + > same URL. Or tap the link at https://kb01111.github.io/Sideload-Sources/ on your iPhone.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "0A84FF",
       "imageURL": "https://github.com/SideStore.png",
       "notify": false
     },
     {
-      "title": "Legit only: why these 11 apps?",
+      "title": "Why these 16? Criteria & exclusions",
       "identifier": "legit-criteria-2026-08-08",
-      "caption": "Inclusion criteria: (1) public GitHub repo (2) OSI-approved license (3) tagged GitHub Release with .ipa asset (4) not a piracy/tweaked app. Excluded: RetroArch (no iOS IPA artifact on GH), Flycast (no iOS IPA), tweaked YouTube/Spotify forks (no standalone IPA).",
+      "caption": "All 16 have a tagged GitHub Release with an IPA asset. Core = OSI license + no piracy. New 5 = open patcher/SwiftUI value where the published IPA is the project's official artifact (BHTwitter-sideloaded, ApolloPatcher, etc.). Excluded: uYou+/Enhanced, YTLitePlus, EeveeSpotify (451) — they publish no Release IPA artifact.",
       "date": "2026-08-08T00:00:00Z",
       "tintColor": "34C759",
       "imageURL": "https://github.com/hrydgard.png",

@@ -1,8 +1,11 @@
 # Kevin's Legit GitHub Sideload — Sidestore/AltStore Source
 
-A curated **AltStore / SideStore** source that only lists **100% open-source iOS apps** whose `.ipa` is published directly on **GitHub Releases**. No piracy, no repacks, no sideloaded tweaks.
+A curated **AltStore / SideStore** source of iOS apps whose `.ipa` is published directly on **GitHub Releases**.
 
-> Every `downloadURL` in `source.json` points straight to the upstream repo's release asset (verified 2026-08-08 with `HEAD 200`).
+- **Core 11**: 100% open-source, OSI-licensed (Delta/Provenance/UTM/PPSSPP/etc.)
+- **New 5 (2026-08-08)**: focused on **newer, high-value SwiftUI + tweaked apps** that ship a sideloadable `.ipa` (Spotube, BHTwitter, PojavLauncher, LBox, Apollo Patched). Tweaked IPAs are built from open patchers — not repacked piracy.
+
+> Every `downloadURL` points straight to the upstream GitHub Release asset (all 16 verified `HEAD 200` on 2026-08-08).
 
 ## Quick add — LIVE on GitHub Pages
 
@@ -15,11 +18,11 @@ One-tap install links: [Add to SideStore](sidestore://source?url=https://kb01111
 Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://github.com/KB01111/Sideload-Sources
 
 1. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL above (or tap the one-tap link on your phone).
-2. Browse the **Apps/Browse** tab — all 11 apps appear for one-tap install/refresh.
+2. Browse the **Apps/Browse** tab — all 16 apps appear for one-tap install/refresh.
 
 > Tip: SideStore/AltStore caches the source. After you push an update to `source.json`, users pull-to-refresh the Sources screen to fetch it.
 
-## What's included (11 apps)
+## What's included (16 apps — 11 core + 5 new 2026-08-08)
 
 | App | Bundle ID | Version | What it is | License |
 |---|---|---|---|---|
@@ -34,18 +37,21 @@ Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://githu
 | **SideStore** | `com.SideStore.SideStore` | 0.6.3 (2026-05-05) | AltStore fork — no AltServer | AGPL-3.0 |
 | **iSH** | `app.ish.iSH` | 494 (2023-05-20) | Alpine Linux shell via x86 emulation | BSD |
 | **StikDebug** | `com.stik.stikdebug` | 3.1.9 (2026-08-01) | On-device JIT/debugger for iOS 17.4+ | AGPL-3.0 |
+| **Spotube** ✨ | `oss.krtirtho.spotube` | 5.1.2 (2026-06-05) | Spotify frontend — no premium needed (Flutter/SwiftUI) | GPL-ish |
+| **BHTwitter** ✨ tweaked | `com.atebits.Tweetie2` | 4.4 (2025-05-13) | Twitter/X tweaked — ad block, downloads, premium | Theos tweak |
+| **PojavLauncher** ✨ | `net.kdt.pojavlauncher` | 2.2 (2023-05-06) | Minecraft Java Edition on iOS | GPL-3.0 |
+| **LBox** ✨ SwiftUI | `Lolendor.LBox` | 1.2 (2025-12-08) | SwiftUI LiveContainer companion — browse/install IPAs | MIT |
+| **Apollo (Patched)** ✨ tweaked | `com.christianselig.Apollo` | 1.15.11-0.1.0 (2026-02-18) | Reddit Apollo revived — BYO API key | GPL-3.0 |
 
-All sizes/URLs were HEAD-checked; `Content-Length` matches the `size` field in `source.json`.
+✨ = new in Aug 2026 update (newer / SwiftUI / tweaked value picks). All 16 sizes/URLs HEAD-checked.
 
 ## Inclusion criteria
 
-An app is added only if it meets **all** of:
-1. Public GitHub repo
-2. OSI-approved license (`LICENSE` file)
-3. Tagged **GitHub Release** with an `.ipa` asset (not just source)
-4. Not a piracy/tweaked client (no YouTube/Spotify++ etc.)
+Core 11: **all** of (1) public GitHub (2) OSI license (3) tagged Release with `.ipa` (4) not piracy.
 
-**Excluded on purpose:** RetroArch (no iOS `.ipa` on Releases), Flycast (Android/AppImage only), ScummVM (no iOS IPA artifact), a-shell (no IPA), dolphin-emu (no iOS IPA on latest).
+New 5 expand toward **value/feature**: SwiftUI-native apps (LBox, Spotube) and reputable **tweaked/patcher** IPAs where the patcher is open-source and the sideloaded IPA is the project's official Release artifact (BHTwitter-sideloaded.ipa, ApolloPatcher 1.15.11). YouTube/Spotify++ style IPAs that publish no Release `.ipa` remain excluded.
+
+**Excluded on purpose (no GH Release .ipa):** RetroArch, Flycast (APK/appx only), ScummVM, a-shell, uYouPlus/uYouEnhanced/YTLitePlus (no IPA artifact — need local build), EeveeSpotify (DMCA 451), TrollStore (deb/tar only).
 
 ## Updating the source
 
