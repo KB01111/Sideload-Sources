@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated Sidestore/AltStore source — 24 Sidestore-installable IPAs (open-source + SwiftUI/tweaked + AppDB). Every downloadURL is the upstream GitHub Release IPA (24 verified HEAD 200 on 2026-08-08). TrollRecorder call recorder is TrollStore-only (see README) and not included in this Sidestore source. Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated Sidestore/AltStore source — 25 Sidestore-installable IPAs (open-source + SwiftUI/tweaked + AppDB). Every downloadURL is the upstream GitHub Release IPA (25 verified HEAD 200 on 2026-08-08). TrollRecorder call recorder is TrollStore-only (see README) and not included in this Sidestore source. Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -642,9 +642,45 @@
           "minOSVersion": "12.0"
         }
       ]
+    },
+    {
+      "name": "Mirarr",
+      "bundleIdentifier": "com.example.Mirarr",
+      "developerName": "Mirarr App",
+      "subtitle": "FOSS movie & TV app — watch movies and TV shows",
+      "localizedDescription": "Mirarr is a free and open-source movie & TV app that simplifies watching movies and TV shows. Cross-platform Flutter app for iOS, Android, Windows, Linux and Web. This is the official unsigned GitHub Release IPA (v3.3.2), ready for Sidestore signing. 850+ stars.",
+      "iconURL": "https://github.com/mirarr-app.png",
+      "tintColor": "E50914",
+      "category": "entertainment",
+      "size": 11717881,
+      "version": "3.3.2",
+      "versionDate": "2026-07-27T16:03:41Z",
+      "versionDescription": "Mirarr v3.3.2 — official Release IPA. https://github.com/mirarr-app/mirarr/releases/tag/3.3.2",
+      "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
+      "minOSVersion": "13.0",
+      "versions": [
+        {
+          "version": "3.3.2",
+          "date": "2026-07-27T16:03:41Z",
+          "size": 11717881,
+          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
+          "localizedDescription": "Official Mirarr v3.3.2 Release IPA (unsigned, Sidestore-signable). See release notes on GitHub.",
+          "minOSVersion": "13.0"
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "NEW: Mirarr 3.3.2 — FOSS movie & TV app (25 apps!)",
+      "identifier": "update-2026-08-08-mirarr",
+      "caption": "Mirarr, a free & open-source movie and TV app (Flutter, cross-platform), is now included from its official GitHub Release IPA v3.3.2. 25 apps live — pull-to-refresh Sources to update.",
+      "date": "2026-08-08T19:00:00Z",
+      "tintColor": "E50914",
+      "imageURL": "https://github.com/mirarr-app.png",
+      "notify": true,
+      "url": "https://github.com/mirarr-app/mirarr/releases/tag/3.3.2"
+    },
     {
       "title": "Call recorder? TrollRecorder is TrollStore-only",
       "identifier": "note-call-recorder-2026-08-08",
