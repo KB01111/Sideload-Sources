@@ -4,13 +4,18 @@ A curated **AltStore / SideStore** source that only lists **100% open-source iOS
 
 > Every `downloadURL` in `source.json` points straight to the upstream repo's release asset (verified 2026-08-08 with `HEAD 200`).
 
-## Quick add
+## Quick add — LIVE on GitHub Pages
 
-1. Host `source.json` on any HTTPS URL (GitHub Pages, Gist, Cloudflare R2, etc.).
-   - Example GitHub Pages URL: `https://kevin.github.io/Sideload-Sources/source.json`
-   - Raw gist URL also works as long as it serves `application/json` over HTTPS.
-2. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL.
-3. Browse the **Apps/Browse** tab — all 11 apps will appear for one-tap install/refresh.
+**Source URL (paste in SideStore/AltStore):**
+```
+https://kb01111.github.io/Sideload-Sources/source.json
+```
+One-tap install links: [Add to SideStore](sidestore://source?url=https://kb01111.github.io/Sideload-Sources/source.json) · [Add to AltStore](altstore://source?url=https://kb01111.github.io/Sideload-Sources/source.json)
+
+Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://github.com/KB01111/Sideload-Sources
+
+1. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL above (or tap the one-tap link on your phone).
+2. Browse the **Apps/Browse** tab — all 11 apps appear for one-tap install/refresh.
 
 > Tip: SideStore/AltStore caches the source. After you push an update to `source.json`, users pull-to-refresh the Sources screen to fetch it.
 
@@ -57,8 +62,9 @@ Get-Content source.json -Raw | ConvertFrom-Json | ForEach-Object { $_.apps | For
 ## File layout
 
 ```
-Sideload-Sources/
-  source.json   ← add this URL to SideStore/AltStore
+Sideload-Sources/                ← https://github.com/KB01111/Sideload-Sources
+  source.json   ← https://kb01111.github.io/Sideload-Sources/source.json (add THIS url)
+  index.html    ← https://kb01111.github.io/Sideload-Sources/ (tap-to-add landing page)
   README.md     ← this file
 ```
 
