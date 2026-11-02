@@ -41,7 +41,7 @@ In SideStore, open **Settings → Sources → Add Source** and paste the URL. Af
 | Cowabunga | `com.leemin.Cowabunga` | [10.3.2](https://github.com/leminlimez/Cowabunga/releases/tag/v10.3.2) | MacDirtyCow customization tool for supported iOS versions. |
 | Misaka | `com.straighttamago.misaka` | [8.2.4](https://github.com/straight-tamago/misaka/releases/tag/8.2.4) | KFD/MDC customization tool. |
 | Yattee | `stream.yattee.app` | [2.0.0-beta.278](https://github.com/yattee/yattee/releases/tag/2.0.0-beta.278) | PRE-RELEASE privacy-focused YouTube player; iOS 18+. |
-| YTKACE | `com.google.ios.youtube` | [1.1.4](https://github.com/itzzace/ytkace/releases/tag/v1.1.4) | Modified YouTube with SponsorBlock; IPA in this catalog requires iOS 17+. [iOS 16 IPA](https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa). |
+| YouProEXTRA / YTKACE | `com.google.ios.youtube` | [YouProEXTRA 6.0-b2](https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6), YouTube 21.43.5 | The latest entry is an unofficial build that the uploader labels cracked; iOS 17+. YTKACE 1.1.4 iOS 17+ and iOS 16 builds remain available in the version list. |
 | Paperback | `com.paperback.ios` | [0.8.11-r2](https://github.com/Paperback-iOS/app/releases/tag/v0.8.11-r2) | Manga and comic reader. |
 | DebToIPA | `net.sourceloc.DebToIPA` | [1.1.1](https://github.com/sourcelocation/DebToIPA/releases/tag/1.1.1) | Convert `.deb` packages to IPA on-device. |
 | ModMyIPA | `com.powen.ModMyIPA` | [1.0.2](https://github.com/powenn/ModMyIPA/releases/tag/1.0.2) | Change an IPA's bundle identifier to install a separate copy. |
@@ -52,7 +52,7 @@ In SideStore, open **Settings → Sources → Add Source** and paste the URL. Af
 
 ## Modified apps and compatibility notes
 
-YTKACE is an independent, open-source YouTube enhancement. The catalog links the maintainer’s iOS 17+ IPA; the maintainer also publishes an iOS 16-compatible build using an older YouTube base. Both use YouTube’s bundle ID, so they cannot be installed side-by-side with another app carrying the same identifier. BHTwitter and Apollo Patched are also modified clients already listed above. Cracked builds that bypass another developer’s paid subscription are not included.
+The YouTube listing uses one bundle ID and offers multiple build variants through the version selector: the latest YouProEXTRA / YouTubePlus 6.0-b2 build (YouTube 21.43.5, iOS 17+), plus YTKACE 1.1.4 builds for iOS 17+ and iOS 16. The YouProEXTRA release page labels its build cracked and says no subscription is required; this is an unofficial community build. All variants use YouTube’s bundle ID and cannot coexist under separate listings or with another copy carrying that ID. BHTwitter and Apollo Patched are also modified clients already listed above.
 
 
 SideStore 0.7.0-alpha is listed because the upstream release page says 0.6.4 and earlier have a sign-in failure, while this alpha addresses the 503 issue. iSH build 813, LiveContainer nightly 3.8.11, Spotube 6 beta, Yattee 2.0 beta, and Provenance Alpha are explicitly labelled previews. Provenance Alpha has a separate bundle ID and can coexist with stable Provenance. It uses the NoExtensions IPA to reduce the number of app identifiers registered during free signing.

@@ -638,28 +638,47 @@
       ]
     },
     {
-      "name": "YTKACE",
+      "name": "YouProEXTRA / YTKACE",
       "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "itzzace (YTKACE)",
-      "subtitle": "Open-source YouTube enhancer with SponsorBlock",
-      "localizedDescription": "Open-source YouTube enhancer with SponsorBlock, background playback, queue controls, downloads and interface options. This first-party release packages YouTube 21.42.4 and requires iOS 17 or later. It uses the stock YouTube bundle ID com.google.ios.youtube, so it cannot coexist with the App Store YouTube app under the same identifier. The maintainer also publishes an iOS 16-compatible YouTube 21.33.6 IPA at the same release page. YTKACE is an independent project and is not affiliated with Google.",
-      "iconURL": "https://github.com/itzzace.png",
+      "developerName": "YouProEXTRA and YTKACE maintainers",
+      "subtitle": "Modified YouTube builds; choose a compatible version",
+      "localizedDescription": "Unofficial modified YouTube builds using the stock com.google.ios.youtube bundle ID. The latest entry is YouProEXTRA / YouTubePlus 6.0-b2 on YouTube 21.43.5 (iOS 17+). Its upstream release explicitly labels it cracked and says no subscription is required. Earlier versions include YTKACE 1.1.4 for iOS 17+ and iOS 16. These builds replace rather than coexist with another app using this bundle ID. They are not affiliated with Google or YouTubePlus; review upstream release notes and local law before installing.",
+      "iconURL": "https://github.com/mrdrvt99.png",
       "tintColor": "FF0000",
       "category": "entertainment",
-      "size": 138006169,
-      "version": "1.1.4",
-      "versionDate": "2026-10-25T17:33:06Z",
-      "versionDescription": "YTKACE 1.1.4, YouTube 21.42.4, iOS 17+ (2026-10-25). iOS 16 IPA: https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa. Release: https://github.com/itzzace/ytkace/releases/tag/v1.1.4",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "size": 150260037,
+      "version": "21.43.5",
+      "versionDate": "2026-10-27T21:13:57Z",
+      "versionDescription": "YouProEXTRA / YouTubePlus 6.0-b2, YouTube base 21.43.5 (2026-10-27). Marked cracked by the upstream uploader; claims no subscription is required. Requires iOS 17+. Release: https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
       "minOSVersion": "17.0",
       "versions": [
         {
-          "version": "1.1.4",
+          "version": "21.43.5",
+          "buildVersion": "21.43.5",
+          "date": "2026-10-27T21:13:57Z",
+          "size": 150260037,
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
+          "localizedDescription": "YouProEXTRA / YouTubePlus 6.0-b2 on YouTube 21.43.5. The upstream release labels this build cracked and says no subscription is required; this is an unofficial community build. Requires iOS 17 or later.",
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "21.42.4",
+          "buildVersion": "21.42.4",
           "date": "2026-10-25T17:33:06Z",
           "size": 138006169,
           "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
-          "localizedDescription": "YTKACE 1.1.4, YouTube 21.42.4, requires iOS 17 or later. An official iOS 16 build is linked in the full description and README.",
+          "localizedDescription": "YTKACE 1.1.4 on YouTube 21.42.4. Requires iOS 17 or later.",
           "minOSVersion": "17.0"
+        },
+        {
+          "version": "21.33.6",
+          "buildVersion": "21.33.6",
+          "date": "2026-10-25T17:33:06Z",
+          "size": 134178929,
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
+          "localizedDescription": "YTKACE 1.1.4 iOS 16-compatible build on YouTube 21.33.6. Requires iOS 16 or later.",
+          "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
@@ -857,6 +876,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Added YouProEXTRA YouTube build; retained YTKACE options",
+      "identifier": "update-2026-11-02-youproextra",
+      "caption": "The YouTube listing now defaults to YouProEXTRA / YouTubePlus 6.0-b2 (YouTube 21.43.5, iOS 17+). YTKACE 1.1.4 variants remain in the same listing for iOS 17+ and iOS 16. Upstream labels YouProEXTRA as cracked and says no subscription is required. All use the same YouTube bundle ID, so the source keeps one listing.",
+      "date": "2026-11-02T08:40:00Z",
+      "tintColor": "FF0000",
+      "imageURL": "https://github.com/mrdrvt99.png",
+      "notify": true,
+      "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6"
+    },
     {
       "title": "Added YTKACE modified YouTube IPA (31 apps)",
       "identifier": "update-2026-11-02-ytkace",
