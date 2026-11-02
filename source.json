@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated SideStore/AltStore source — 30 direct upstream GitHub Release IPAs. The latest relevant release IPA is listed; alpha, beta, nightly and automated daily builds are clearly labelled as previews. No repacked downloads. Add via SideStore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated SideStore/AltStore source — 31 direct upstream GitHub Release IPAs. The latest relevant release IPA is listed; alpha, beta, nightly and automated daily builds are clearly labelled as previews. No repacked downloads. Add via SideStore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -638,6 +638,37 @@
       ]
     },
     {
+      "name": "YTKACE",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "itzzace (YTKACE)",
+      "subtitle": "Open-source YouTube enhancer with SponsorBlock",
+      "localizedDescription": "Open-source YouTube enhancer with SponsorBlock, background playback, queue controls, downloads and interface options. This first-party release packages YouTube 21.42.4 and requires iOS 17 or later. It uses the stock YouTube bundle ID com.google.ios.youtube, so it cannot coexist with the App Store YouTube app under the same identifier. The maintainer also publishes an iOS 16-compatible YouTube 21.33.6 IPA at the same release page. YTKACE is an independent project and is not affiliated with Google.",
+      "iconURL": "https://github.com/itzzace.png",
+      "tintColor": "FF0000",
+      "category": "entertainment",
+      "size": 138006169,
+      "version": "1.1.4",
+      "versionDate": "2026-10-25T17:33:06Z",
+      "versionDescription": "YTKACE 1.1.4, YouTube 21.42.4, iOS 17+ (2026-10-25). iOS 16 IPA: https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa. Release: https://github.com/itzzace/ytkace/releases/tag/v1.1.4",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.1.4",
+          "date": "2026-10-25T17:33:06Z",
+          "size": 138006169,
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+          "localizedDescription": "YTKACE 1.1.4, YouTube 21.42.4, requires iOS 17 or later. An official iOS 16 build is linked in the full description and README.",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
+    },
+    {
       "name": "Paperback",
       "bundleIdentifier": "com.paperback.ios",
       "developerName": "Paperback-iOS",
@@ -826,6 +857,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Added YTKACE modified YouTube IPA (31 apps)",
+      "identifier": "update-2026-11-02-ytkace",
+      "caption": "Added YTKACE 1.1.4, a first-party modified YouTube IPA for iOS 17+, and linked the maintainer’s iOS 16-compatible build in the listing notes. Existing modified clients BHTwitter and Apollo Patched remain in the catalog. Cracked subscription-bypass builds are excluded.",
+      "date": "2026-11-02T08:36:00Z",
+      "tintColor": "FF0000",
+      "imageURL": "https://github.com/itzzace.png",
+      "notify": true,
+      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.4"
+    },
     {
       "title": "Catalog refresh: latest IPAs and 5 additions (30 apps)",
       "identifier": "update-2026-11-02-latest-builds-and-apps",
