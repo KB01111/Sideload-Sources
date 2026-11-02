@@ -1,90 +1,64 @@
-# Kevin's Legit GitHub Sideload — Sidestore/AltStore Source
+# Kevin's GitHub Sideload Source
 
-A curated **AltStore / SideStore** source of iOS apps whose `.ipa` is published directly on **GitHub Releases**.
+A SideStore/AltStore catalog of iOS apps whose install packages are published as first-party GitHub Release assets. It now contains **30 entries**. Every package link goes directly to its upstream release asset; there are no repacked IPAs.
 
-- **Core 11**: 100% open-source, OSI-licensed (Delta/Provenance/UTM/PPSSPP/etc.)
-- **New 14 (Aug 2026)**: newer / SwiftUI + tweaked / **AppDB** value picks — every `.ipa` is the project's official GitHub Release artifact (no repacked piracy).
+The latest relevant upstream IPA is listed. Alpha, beta, nightly and automated daily builds are marked **PRE-RELEASE**. Where upstream changes a bundle ID, the preview is listed separately rather than presented as an update to the stable app. Read each app description and minimum iOS version before installing.
 
-> Every `downloadURL` points straight to the upstream GitHub Release asset (all 25 Sidestore-installable verified `HEAD 200` on 2026-08-08). **TrollRecorder call recorder excluded** — requires TrollStore (iOS 15-17 CoreTrust) and cannot install via Sidestore/AltStore (see below).
+## Add the source
 
-## Quick add — LIVE on GitHub Pages
+Use this URL in SideStore or AltStore:
 
-**Source URL (paste in SideStore/AltStore):**
-```
+```text
 https://kb01111.github.io/Sideload-Sources/source.json
 ```
-One-tap install links: [Add to SideStore](sidestore://source?url=https://kb01111.github.io/Sideload-Sources/source.json) · [Add to AltStore](altstore://source?url=https://kb01111.github.io/Sideload-Sources/source.json)
 
-Landing page: https://kb01111.github.io/Sideload-Sources/ · Repo: https://github.com/KB01111/Sideload-Sources
+In SideStore, open **Settings → Sources → Add Source** and paste the URL. After source changes are published, refresh the Sources screen.
 
-1. On iPhone open **SideStore** (or **AltStore**) → **Settings → Sources → Add Source** → paste the URL above (or tap the one-tap link on your phone).
-2. Browse the **Apps/Browse** tab — all 25 apps appear for one-tap install/refresh.
+## Catalog
 
-> Tip: SideStore/AltStore caches the source. After you push an update to `source.json`, users pull-to-refresh the Sources screen to fetch it.
+| App | Bundle ID | Version | Description |
+|---|---|---|---|
+| Delta | `com.rileytestut.Delta` | [1.6](https://github.com/RileyTestut/Delta/releases/tag/v1.6) | Retro emulator for NES, SNES, N64, Game Boy, GBA and DS. |
+| Provenance | `org.provenance-emu.provenance` | [3.3.0](https://github.com/Provenance-Emu/Provenance/releases/tag/3.3.0) | Multi-system emulator frontend; stable build. |
+| Provenance Alpha | `com.provenance-emu.provenance.alpha` | [alpha, b6069a2](https://github.com/Provenance-Emu/Provenance/releases/tag/alpha) | Preview build from develop; separate bundle ID, NoExtensions IPA. |
+| UTM | `com.utmapp.UTM` | [5.0.8](https://github.com/utmapp/UTM/releases/tag/v5.0.8) | QEMU virtual machines; HV build requires JIT; iOS 15+. |
+| UTM SE | `com.utmapp.UTM-SE` | [5.0.8](https://github.com/utmapp/UTM/releases/tag/v5.0.8) | Slow Edition VM app; no JIT required; iOS 15+. |
+| PPSSPP | `org.ppsspp.ppsspp-free` | [1.20.4](https://github.com/hrydgard/ppsspp/releases/tag/v1.20.4) | PSP emulator. |
+| Pocket8 | `com.jevon.pocket8` | [1.6.2](https://github.com/jevonlipsey/pico-ios/releases/tag/v1.6.2) | PICO-8 cartridge player; provide your own cartridges. |
+| iTorrent | `com.xitrix.iTorrent2` | [2.2.0](https://github.com/XITRIX/iTorrent/releases/tag/v2.2.0-1) | Native torrent client. |
+| Feather | `thewonderofyou.Feather` | [2.9.0](https://github.com/claration/Feather/releases/tag/v2.9.0) | On-device IPA signer and installer. |
+| LiveContainer | `com.kdt.livecontainer` | [3.8.11 nightly](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly) | PRE-RELEASE; run apps in a container; SideStore/AltStore companion required. |
+| SideStore | `com.SideStore.SideStore` | [0.7.0-alpha](https://github.com/SideStore/SideStore/releases/tag/0.7.0-alpha) | PRE-RELEASE; upstream says this fixes the 503 sign-in issue in 0.6.4 and earlier. |
+| iSH | `app.ish.iSH` | [1.3.3, build 813](https://github.com/ish-app/ish/releases/tag/builds/813) | PRE-RELEASE automated daily build; Alpine Linux shell. |
+| StikDebug | `com.stik.stikdebug` | [3.2.0](https://github.com/StiKDebug/StikDebug/releases/tag/3.2.0) | On-device pairing, debugger and JIT utility; iOS 17.4+. |
+| Roam Control | `com.roamcontrol` | [0.9.9, build 105](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.9) | Location-testing utility; iOS 27+, Developer Mode and LocalDevVPN required. |
+| Spotube | `oss.krtirtho.spotube` | [5.1.2](https://github.com/team-spotube/spotube/releases/tag/v5.1.2) | Stable open-source music client. |
+| Spotube 6 Beta | `org.spotube.spotube.Spotube` | [6.0.0-beta.0](https://github.com/team-spotube/spotube/releases/tag/v6.0.0-beta.0) | PRE-RELEASE Compose rewrite; new bundle ID; iOS 18.2+. |
+| BHTwitter | `com.atebits.Tweetie2` | [4.4](https://github.com/BandarHL/BHTwitter/releases/tag/4.4) | Tweaked X/Twitter client. |
+| PojavLauncher | `net.kdt.pojavlauncher` | [2.2](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/tag/v2.2) | Minecraft Java launcher for iOS. |
+| LBox | `Lolendor.LBox` | [1.2](https://github.com/Lolendor/LBox/releases/tag/v1.2) | LiveContainer source browser and companion. |
+| Apollo Patched | `com.christianselig.Apollo` | [1.15.11-0.1.0](https://github.com/ichitaso/ApolloPatcher/releases/tag/v0.1.0) | Apollo with configurable Reddit API credentials. |
+| Cowabunga | `com.leemin.Cowabunga` | [10.3.2](https://github.com/leminlimez/Cowabunga/releases/tag/v10.3.2) | MacDirtyCow customization tool for supported iOS versions. |
+| Misaka | `com.straighttamago.misaka` | [8.2.4](https://github.com/straight-tamago/misaka/releases/tag/8.2.4) | KFD/MDC customization tool. |
+| Yattee | `stream.yattee.app` | [2.0.0-beta.278](https://github.com/yattee/yattee/releases/tag/2.0.0-beta.278) | PRE-RELEASE privacy-focused YouTube player; iOS 18+. |
+| Paperback | `com.paperback.ios` | [0.8.11-r2](https://github.com/Paperback-iOS/app/releases/tag/v0.8.11-r2) | Manga and comic reader. |
+| DebToIPA | `net.sourceloc.DebToIPA` | [1.1.1](https://github.com/sourcelocation/DebToIPA/releases/tag/1.1.1) | Convert `.deb` packages to IPA on-device. |
+| ModMyIPA | `com.powen.ModMyIPA` | [1.0.2](https://github.com/powenn/ModMyIPA/releases/tag/1.0.2) | Change an IPA's bundle identifier to install a separate copy. |
+| Azula | `com.paisseon.Azula` | [1.0.1](https://github.com/Paisseon/Azula/releases/tag/v1.0.1) | Inject dynamic libraries into IPAs on-device. |
+| AppDB | `it.ned.appdb-ios` | [1.1.6](https://github.com/n3d1117/appdb/releases/tag/v1.1.6) | Client for the appdb.to catalog. Review the content and source you choose. |
+| AerioTV | `app.molinete.aerio` | [1.8.44](https://github.com/jonzey231/AerioTV/releases/tag/v1.8.44) | IPTV player for user-configured playlists and servers; iOS 18+. |
+| Mirarr | `com.example.Mirarr` | [3.3.3](https://github.com/mirarr-app/mirarr/releases/tag/3.3.3) | Cross-platform movie and TV app; use authorized sources only. |
 
-## What's included (25 apps — Sidestore-installable, 11 core + 14 new incl. AppDB)
+## Preview and compatibility notes
 
-| App | Bundle ID | Version | What it is | License |
-|---|---|---|---|---|
-| **Delta** | `com.rileytestut.Delta` | 1.6 (2024-07-11) | Retro emulator (NES/SNES/N64/GB/GBA/DS) | AGPL-3.0 |
-| **Provenance** | `org.provenance-emu.provenance` | 3.3.0 (2026-03-14) | Multi-system frontend (Atari/Nintendo/Sega/Sony/…) | GPL-2.0-ish |
-| **UTM** | `com.utmapp.UTM` | 4.7.5 (2026-01-03) | QEMU VMs for iOS (needs JIT) | Apache-2.0 |
-| **UTM SE** | `com.utmapp.UTM-SE` | 4.7.5 | UTM Slow Edition — no JIT needed | Apache-2.0 |
-| **PPSSPP** | `org.ppsspp.ppsspp-free` | 1.20.4 (2026-05-16) | PSP emulator | GPL-2.0 |
-| **iTorrent** | `com.xitrix.iTorrent2` | 2.2.0 (2026-07-19) | Native torrent client | MIT |
-| **Feather** | `thewonderofyou.Feather` | 2.9.0 (2026-07-05) | On-device IPA signer/installer | GPL-3.0 |
-| **LiveContainer** | `com.kdt.livecontainer` | 3.8.0 (2026-07-17) | Run IPAs without installing | AGPL-3.0 |
-| **SideStore** | `com.SideStore.SideStore` | 0.6.3 (2026-05-05) | AltStore fork — no AltServer | AGPL-3.0 |
-| **iSH** | `app.ish.iSH` | 494 (2023-05-20) | Alpine Linux shell via x86 emulation | BSD |
-| **StikDebug** | `com.stik.stikdebug` | 3.1.9 (2026-08-01) | On-device JIT/debugger for iOS 17.4+ | AGPL-3.0 |
-| **Spotube** ✨ | `oss.krtirtho.spotube` | 5.1.2 (2026-06-05) | Spotify frontend — no premium needed (Flutter/SwiftUI) | GPL-ish |
-| **BHTwitter** ✨ tweaked | `com.atebits.Tweetie2` | 4.4 (2025-05-13) | Twitter/X tweaked — ad block, downloads, premium | Theos tweak |
-| **PojavLauncher** ✨ | `net.kdt.pojavlauncher` | 2.2 (2023-05-06) | Minecraft Java Edition on iOS | GPL-3.0 |
-| **LBox** ✨ SwiftUI | `Lolendor.LBox` | 1.2 (2025-12-08) | SwiftUI LiveContainer companion — browse/install IPAs | MIT |
-| **Apollo (Patched)** ✨ tweaked | `com.christianselig.Apollo` | 1.15.11-0.1.0 (2026-02-18) | Reddit Apollo revived — BYO API key | GPL-3.0 |
-| **AppDB** ✨ | `it.ned.appdb-ios` | 1.1.6 (2023-08-24) | Full client for appdb.to — sideload DB | MIT |
-| **Cowabunga** | `com.leemin.Cowabunga` | 10.3.2 (2023-05-29) | MacDirtyCow toolbox (iOS 14-16.1.2) | GPL-3.0 |
-| **Misaka** | `com.straighttamago.misaka` | 8.2.4 (2024-01-20) | KFD & MDC customisation (iOS/tvOS) | MIT |
-| **Yattee** | `stream.yattee.app` | 1.5.1 (2024-01-28) | Privacy YouTube player (iOS/tvOS) | AGPL-3.0 |
-| **Paperback** ✨ | `com.paperback.ios` | 0.8.11-r2 (2025-05-20) | Manga reader — extensions & tracking | — |
-| **DebToIPA** | `net.sourceloc.DebToIPA` | 1.1.1 (2022-10-18) | Convert .deb → .ipa on-device (SwiftUI) | GPL-3.0 |
-| **ModMyIPA** | `com.powen.ModMyIPA` | 1.0.2 (2022-10-26) | Duplicate any IPA (multi-install) | — |
-| **Azula** | `com.paisseon.Azula` | 1.0.1 (2023-03-16) | Inject dylibs into IPAs on-device | AGPL-3.0 |
-| **Mirarr** ✨ | `com.example.Mirarr` | 3.3.2 (2026-07-27) | FOSS movie & TV app (Flutter, cross-platform) | FOSS |
+SideStore 0.7.0-alpha is listed because the upstream release page says 0.6.4 and earlier have a sign-in failure, while this alpha addresses the 503 issue. iSH build 813, LiveContainer nightly 3.8.11, Spotube 6 beta, Yattee 2.0 beta, and Provenance Alpha are explicitly labelled previews. Provenance Alpha has a separate bundle ID and can coexist with stable Provenance. It uses the NoExtensions IPA to reduce the number of app identifiers registered during free signing.
 
-✨ = Aug 2026 value picks. All 25 sizes/URLs HEAD-checked.
+Pocket8 needs cartridges supplied by the user. AerioTV needs a user-configured server or playlist; the catalog does not include media. Roam Control is a developer/testing tool and requires iOS 27 or later, Developer Mode and LocalDevVPN. These requirements are shown in the source app descriptions as well.
 
-> **Call recorder?** The only open-source iOS call recorder on GitHub is **TrollRecorder** (`Lessica/TrollRecorder` AGPL-3.0, 2065★, `wiki.qaq.trapp` v4.5-3632 `TRApp_4.5-3632.tipa`). It **requires TrollStore (iOS 15.0-17.0)** and explicitly lists *eSign / LiveContainer as not supported*. That's why you can't install it via Sidestore — Apple blocks call recording in the sandbox; only TrollStore CoreTrust can grant the entitlement. **We removed TrollRecorder from this Sidestore source** — TrollStore users can still install the `.tipa` directly from `https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632`. No Sidestore-compatible call recorder with a GitHub Release `.ipa` exists (searched `call recorder ios` + `appdb` + all sideload repos).
+## Maintenance
 
-## Inclusion criteria
+App versions, sizes, bundle IDs and minimum iOS requirements are taken from the upstream release metadata and, where practical, the IPA's `Info.plist`. Each `downloadURL` should point to the project's own GitHub Release asset. Before publishing a catalog refresh, validate the JSON and send a `HEAD` request to every package URL.
 
-Core 11: **all** of (1) public GitHub (2) OSI license (3) tagged Release with `.ipa` (4) not piracy.
+## TrollStore-only apps
 
-New 5 expand toward **value/feature**: SwiftUI-native apps (LBox, Spotube) and reputable **tweaked/patcher** IPAs where the patcher is open-source and the sideloaded IPA is the project's official Release artifact (BHTwitter-sideloaded.ipa, ApolloPatcher 1.15.11). YouTube/Spotify++ style IPAs that publish no Release `.ipa` remain excluded.
-
-**Excluded on purpose (no GH Release .ipa):** RetroArch, Flycast (APK/appx only), ScummVM, a-shell, uYouPlus/uYouEnhanced/YTLitePlus (no IPA artifact — need local build), EeveeSpotify (DMCA 451), TrollStore (deb/tar only).
-
-## Updating the source
-
-```powershell
-# check latest releases
-gh api repos/RileyTestut/Delta/releases/latest --jq "{tag:.tag_name,date:.published_at,assets:[.assets[].name]}"
-gh api repos/utmapp/UTM/releases/latest --jq "{tag:.tag_name,assets:[.assets[].name]}"
-# bump version/size/downloadURL in source.json, validate:
-Get-Content source.json -Raw | ConvertFrom-Json | ForEach-Object { "apps=$($_.apps.Count) OK" }
-# HEAD-check every URL:
-Get-Content source.json -Raw | ConvertFrom-Json | ForEach-Object { $_.apps | ForEach-Object { Invoke-WebRequest $_.downloadURL -Method Head -UseBasicParsing | Select-Object StatusCode,Headers } }
-```
-
-## File layout
-
-```
-Sideload-Sources/                ← https://github.com/KB01111/Sideload-Sources
-  source.json   ← https://kb01111.github.io/Sideload-Sources/source.json (add THIS url)
-  index.html    ← https://kb01111.github.io/Sideload-Sources/ (tap-to-add landing page)
-  README.md     ← this file
-```
-
-## Credits & provenance
-
-Bundle IDs were verified from `Info.plist` / `project.pbxproj` / `*.xcconfig` on each repo's default branch. Icons point to each org's GitHub avatar (replace with hosted icons if you prefer). Upstream wikis: Provenance https://wiki.provenance-emu.com · UTM https://docs.getutm.app
+TrollRecorder is not included because its `.tipa` package requires TrollStore and cannot be installed through SideStore/AltStore. TrollStore-specific packages are kept out of this SideStore source.

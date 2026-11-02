@@ -1,9 +1,9 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Kevin's Legit GitHub Sideload - Sidestore Source</title>
+<title>Kevin's GitHub Sideload Source</title>
 <style>
 body{font-family:ui-sans-system,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:760px;margin:40px auto;padding:0 20px;color:#111;line-height:1.6}
 code,pre{background:#f4f4f5;padding:2px 6px;border-radius:6px;word-break:break-all}
@@ -15,46 +15,32 @@ a{color:#0A84FF}
 </style>
 </head>
 <body>
-<h1>Kevin's Legit GitHub Sideload</h1>
-<p class="small">Open-source classics + SwiftUI / tweaked helpers + AppDB — every IPA straight from GitHub Releases. For SideStore / AltStore. <span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:6px;font-weight:600;">25 apps</span> — Sidestore-installable only (call recorder = TrollStore-only, see README).</p>
-
+<h1>Kevin's GitHub Sideload Source</h1>
+<p class="small">30 SideStore/AltStore entries. Packages link directly to first-party GitHub Release assets. Alpha, beta, nightly and automated daily builds are labelled as previews.</p>
 <div class="card">
-<h2 style="margin-top:0">Add to SideStore</h2>
-<p>Tap the button on your iPhone, or copy the URL manually:</p>
+<h2 style="margin-top:0">Add to SideStore or AltStore</h2>
+<p>Open this page on your iPhone, tap a button, or copy the source URL manually:</p>
 <p><a class="btn" href="sidestore://source?url=https://kb01111.github.io/Sideload-Sources/source.json">Add to SideStore</a>
 <a class="btn" style="background:#111;margin-left:8px" href="altstore://source?url=https://kb01111.github.io/Sideload-Sources/source.json">Add to AltStore</a></p>
 <pre>https://kb01111.github.io/Sideload-Sources/source.json</pre>
-<p class="small">SideStore: Settings &gt; Sources &gt; Add Source &gt; paste URL. AltStore: Sources tab &gt; + &gt; paste URL.</p>
+<p class="small">SideStore: Settings &gt; Sources &gt; Add Source. AltStore: Sources tab &gt; +.</p>
 </div>
-
 <div class="card">
-<h3 style="margin-top:0">What's inside (25 apps — 11 core + 14 value incl. AppDB)</h3>
+<h2 style="margin-top:0">What's inside</h2>
 <ul>
-<li><strong>Emulators:</strong> Delta, Provenance, UTM / UTM SE, PPSSPP, <em>PojavLauncher</em> ✨</li>
-<li><strong>Music / Social:</strong> <em>Spotube</em> ✨, <em>BHTwitter</em> ✨, <em>Apollo Patched</em> ✨, <em>Yattee</em> (privacy YouTube), <em>Paperback</em> (manga)</li>
-<li><strong>Theming:</strong> <em>Cowabunga</em> (MDC 14-16.1.2), <em>Misaka</em> (KFD+MDC)</li>
-<li><strong>Sideloading &amp; helpers:</strong> Feather, LiveContainer, <em>LBox</em> ✨, SideStore, StikDebug, <em>DebToIPA</em>, <em>ModMyIPA</em>, <em>Azula</em></li>
-<li><strong>Other:</strong> iTorrent, iSH, <em>AppDB</em> — full appdb.to client, <em>Mirarr</em> — FOSS movie &amp; TV app ✨</li>
+<li><strong>Emulators and games:</strong> Delta, Provenance, Provenance Alpha (preview), UTM / UTM SE, PPSSPP, Pocket8, PojavLauncher.</li>
+<li><strong>Signing and developer tools:</strong> Feather, LiveContainer, SideStore, StikDebug, LBox, DebToIPA, ModMyIPA, Azula, Roam Control.</li>
+<li><strong>Media and reading:</strong> iTorrent, Spotube, Spotube 6 Beta (preview), BHTwitter, Apollo Patched, Yattee (beta), Paperback, AppDB, AerioTV, Mirarr.</li>
+<li><strong>System customization:</strong> iSH, Cowabunga and Misaka.</li>
 </ul>
-<p class="small">All 25 IPAs are Sidestore-installable and verified HEAD 200 on 2026-08-08.</p>
-<p><a href="source.json">View source.json</a> &middot; <a href="https://github.com/KB01111/Sideload-Sources">GitHub repo</a></p>
+<p class="small">Preview builds have their status and minimum iOS version noted in the catalog. Check each upstream release page before installing.</p>
+<p><a href="source.json">View source.json</a> &middot; <a href="README.md">Catalog and compatibility notes</a> &middot; <a href="https://github.com/KB01111/Sideload-Sources">GitHub repository</a></p>
 </div>
 <div class="card" style="background:#fff7ed;border-color:#fed7aa">
-<h3 style="margin-top:0">✨ New — AppDB + helpers</h3>
-<ul>
-<li><strong>AppDB</strong> — full-featured appdb.to client — <code>appdb-v1.1.6-stev3fvcks.ipa</code></li>
-<li><strong>Cowabunga</strong> / <strong>Misaka</strong> — MDC/KFD theming &amp; toolbox</li>
-<li><strong>Yattee</strong> — privacy YouTube (iOS/tvOS, SponsorBlock) — <code>Yattee-1.5.1-iOS.ipa</code></li>
-<li><strong>Paperback</strong> — manga reader with extensions — <code>Paperback.ipa v0.8.11-r2</code></li>
-<li><strong>DebToIPA</strong> / <strong>ModMyIPA</strong> / <strong>Azula</strong> — on-device patch helpers (SwiftUI)</li>
-</ul>
-<p class="small">Pull-to-refresh Sources in SideStore to get the update. Also added earlier: Spotube, BHTwitter, PojavLauncher, LBox, Apollo Patched.</p>
+<h3 style="margin-top:0">Preview-build notes</h3>
+<p>SideStore 0.7.0-alpha is listed because its maintainers say it fixes the 503 sign-in problem affecting 0.6.4 and earlier. iSH build 813, LiveContainer nightly, Spotube 6 Beta, Yattee 2 Beta and Provenance Alpha are preview builds and may be less stable than tagged stable releases.</p>
+<p class="small">Provenance Alpha has a separate bundle ID from stable Provenance. Spotube 6 Beta also has a new bundle ID and requires iOS 18.2 or later. Review the app descriptions in the source before installation.</p>
 </div>
-<div class="card" style="background:#f4f4f5;border-color:#e4e4e7">
-<h3 style="margin-top:0">📞 Call recorder?</h3>
-<p class="small">The only open-source iOS call recorder on GitHub is <strong>TrollRecorder</strong> (<code>Lessica/TrollRecorder</code> v4.5-3632, <code>wiki.qaq.trapp</code>). It <strong>requires TrollStore (iOS 15-17 CoreTrust)</strong> and the upstream explicitly says <em>eSign / LiveContainer not supported</em> — so it <strong>can't install via Sidestore</strong> (Apple blocks the telephony entitlement in the sandbox). We removed it from this source; TrollStore users can install <code>TRApp_4.5-3632.tipa</code> directly from <a href="https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632">the Release page</a>. No Sidestore-compatible call recorder with a GitHub Release IPA exists.</p>
-</div>
-
-<p class="small">Bundle IDs verified from Info.plist / project.pbxproj / xcconfig. Icons are GitHub avatars. Want updates? Watch the repo - bump version/size/downloadURL when upstream tags a new release.</p>
+<p class="small">Refresh Sources in SideStore/AltStore after a catalog update. All app packages link to upstream GitHub releases.</p>
 </body>
 </html>

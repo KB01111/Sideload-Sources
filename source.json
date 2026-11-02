@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated Sidestore/AltStore source — 25 Sidestore-installable IPAs (open-source + SwiftUI/tweaked + AppDB). Every downloadURL is the upstream GitHub Release IPA (25 verified HEAD 200 on 2026-08-08). TrollRecorder call recorder is TrollStore-only (see README) and not included in this Sidestore source. Add via Sidestore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated SideStore/AltStore source — 30 direct upstream GitHub Release IPAs. The latest relevant release IPA is listed; alpha, beta, nightly and automated daily builds are clearly labelled as previews. No repacked downloads. Add via SideStore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -72,28 +72,59 @@
       ]
     },
     {
+      "name": "Provenance Alpha",
+      "bundleIdentifier": "com.provenance-emu.provenance.alpha",
+      "developerName": "Provenance Emu",
+      "subtitle": "Preview build of the multi-system emulator frontend",
+      "localizedDescription": "PRE-RELEASE automated alpha from the Provenance develop branch, built 2026-11-02 (commit b6069a2). This separate bundle ID can be installed alongside stable Provenance. The NoExtensions IPA omits widgets, Spotlight, QuickLook, stickers and the Files ROM provider; import ROMs using the in-app web server. Unsigned and intended for SideStore/AltStore. Preview builds may be unstable.",
+      "iconURL": "https://github.com/Provenance-Emu.png",
+      "tintColor": "6E5CE6",
+      "category": "games",
+      "size": 780937406,
+      "version": "alpha",
+      "versionDate": "2026-11-02T02:43:16Z",
+      "versionDescription": "PRE-RELEASE Provenance Alpha from develop, commit b6069a2 (2026-11-02). Separate bundle ID; NoExtensions IPA. Release: https://github.com/Provenance-Emu/Provenance/releases/tag/alpha",
+      "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/alpha/Provenance-iOS-NoExtensions.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "alpha",
+          "date": "2026-11-02T02:43:16Z",
+          "size": 780937406,
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/alpha/Provenance-iOS-NoExtensions.ipa",
+          "localizedDescription": "PRE-RELEASE automated alpha from the Provenance develop branch, built 2026-11-02 (commit b6069a2). This separate bundle ID can be installed alongside stable Provenance. The NoExtensions IPA omits widgets, Spotlight, QuickLook, stickers and the Files ROM provider; import ROMs using the in-app web server. Unsigned and intended for SideStore/AltStore. Preview builds may be unstable.",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
+    },
+    {
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
       "developerName": "UTM Team (osy)",
       "subtitle": "Virtual machines for iOS & macOS (QEMU)",
-      "localizedDescription": "Run Windows, Linux and more in VMs on iOS. Full QEMU backend with JIT via AltJIT/StikDebug. Apache-2.0. The 4.7.5 IPA is the HV version (requires JIT). For non-JIT devices use UTM SE below. 34k+ stars.",
+      "localizedDescription": "Run Windows, Linux and other virtual machines on iOS. UTM 5.0.8 requires iOS 15 or later and adds improved touch controls and snapshots. This HV build requires JIT; use UTM SE if you do not have JIT.",
       "iconURL": "https://github.com/utmapp.png",
       "tintColor": "FF9500",
       "category": "utilities",
-      "size": 130058389,
-      "version": "4.7.5",
-      "versionDate": "2026-01-03T17:51:54Z",
-      "versionDescription": "UTM 4.7.5 - includes UTM.ipa (HV), UTM-SE variants and visionOS builds. https://github.com/utmapp/UTM/releases/tag/v4.7.5",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
-      "minOSVersion": "14.0",
+      "size": 150556413,
+      "version": "5.0.8",
+      "versionDate": "2026-10-17T02:44:56Z",
+      "versionDescription": "UTM v5.0.8 (2026-10-17). Stable upstream IPA. Release notes: https://github.com/utmapp/UTM/releases/tag/v5.0.8",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "version": "4.7.5",
-          "date": "2026-01-03T17:51:54Z",
-          "size": 130058389,
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
-          "localizedDescription": "Full UTM with hypervisor/JIT. Requires JIT enabler (StikDebug/LiveContainer) on non-jailbroken devices.",
-          "minOSVersion": "14.0"
+          "version": "5.0.8",
+          "date": "2026-10-17T02:44:56Z",
+          "size": 150556413,
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+          "localizedDescription": "Run Windows, Linux and other virtual machines on iOS. UTM 5.0.8 requires iOS 15 or later and adds improved touch controls and snapshots. This HV build requires JIT; use UTM SE if you do not have JIT.",
+          "minOSVersion": "15.0"
         }
       ]
     },
@@ -102,24 +133,24 @@
       "bundleIdentifier": "com.utmapp.UTM-SE",
       "developerName": "UTM Team (osy)",
       "subtitle": "UTM Slow Edition — no JIT required, App Store compliant",
-      "localizedDescription": "UTM SE is the App Store-compliant build that runs without JIT/hypervisor - slower but works without a JIT enabler. Ideal for sideloading if you don't want to manage JIT. Same 4.7.5 release as UTM.",
+      "localizedDescription": "UTM Slow Edition runs virtual machines without JIT or a hypervisor. UTM SE 5.0.8 requires iOS 15 or later; it is slower than the HV build but does not need a JIT enabler.",
       "iconURL": "https://github.com/utmapp.png",
       "tintColor": "FF9500",
       "category": "utilities",
-      "size": 213878374,
-      "version": "4.7.5",
-      "versionDate": "2026-01-03T17:51:54Z",
-      "versionDescription": "SE variant of 4.7.5 for devices without JIT. https://github.com/utmapp/UTM/releases/tag/v4.7.5",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
-      "minOSVersion": "14.0",
+      "size": 237108214,
+      "version": "5.0.8",
+      "versionDate": "2026-10-17T02:44:56Z",
+      "versionDescription": "UTM SE v5.0.8 (2026-10-17). Stable no-JIT IPA. Release notes: https://github.com/utmapp/UTM/releases/tag/v5.0.8",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-SE.ipa",
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "version": "4.7.5",
-          "date": "2026-01-03T17:51:54Z",
-          "size": 213878374,
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
-          "localizedDescription": "Slow Edition - runs without JIT. Use this if you don't have StikDebug/JIT.",
-          "minOSVersion": "14.0"
+          "version": "5.0.8",
+          "date": "2026-10-17T02:44:56Z",
+          "size": 237108214,
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-SE.ipa",
+          "localizedDescription": "UTM Slow Edition runs virtual machines without JIT or a hypervisor. UTM SE 5.0.8 requires iOS 15 or later; it is slower than the HV build but does not need a JIT enabler.",
+          "minOSVersion": "15.0"
         }
       ]
     },
@@ -148,6 +179,37 @@
           "minOSVersion": "12.0"
         }
       ]
+    },
+    {
+      "name": "Pocket8",
+      "bundleIdentifier": "com.jevon.pocket8",
+      "developerName": "Jevon Lipsey",
+      "subtitle": "Open-source PICO-8 cartridge player for iOS",
+      "localizedDescription": "Native iOS companion/runtime for PICO-8 cartridges, with a local library, touch controls and save states. Requires cartridges you provide; compatible with SideStore/AltStore. GPL-3.0. Minimum iOS 15.0.",
+      "iconURL": "https://github.com/jevonlipsey.png",
+      "tintColor": "FF9500",
+      "category": "games",
+      "size": 19479747,
+      "version": "1.6.2",
+      "versionDate": "2026-01-22T23:33:34Z",
+      "versionDescription": "Pocket8 v1.6.2 (2026-01-22), fixes the BBS button on iOS. Release: https://github.com/jevonlipsey/pico-ios/releases/tag/v1.6.2",
+      "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.6.2",
+          "date": "2026-01-22T23:33:34Z",
+          "size": 19479747,
+          "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa",
+          "localizedDescription": "Native iOS companion/runtime for PICO-8 cartridges, with a local library, touch controls and save states. Requires cartridges you provide; compatible with SideStore/AltStore. GPL-3.0. Minimum iOS 15.0.",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
     },
     {
       "name": "iTorrent",
@@ -206,24 +268,24 @@
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer Team",
       "subtitle": "Run iOS apps without installing them",
-      "localizedDescription": "Launch unsigned iOS apps in a container without actually installing them. Requires SideStore 0.6.2+ or AltStore 2.2.1+. Also available as LiveContainer+SideStore bundle. AGPL-3.0. 10k+ stars.",
+      "localizedDescription": "Run unsigned iOS apps in a container without installing them. This is the nightly preview IPA, version 3.8.11, and may be less stable than a tagged release. Standalone installation requires SideStore 0.6.2+ or AltStore 2.2.1+. Requires iOS 15 or later.",
       "iconURL": "https://github.com/LiveContainer.png",
       "tintColor": "AF52DE",
       "category": "utilities",
-      "size": 4707271,
-      "version": "3.8.0",
-      "versionDate": "2026-07-17T07:44:20Z",
-      "versionDescription": "3.8.0 - standalone requires SideStore/AltStore. Use LiveContainer+SideStore.ipa with Impactor/iloader if standalone fails. https://github.com/LiveContainer/LiveContainer/releases/tag/3.8.0",
-      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "minOSVersion": "14.0",
+      "size": 4744959,
+      "version": "3.8.11",
+      "versionDate": "2026-10-17T08:31:56Z",
+      "versionDescription": "PRE-RELEASE nightly IPA, app version 3.8.11 (2026-10-17). Standalone installation requires SideStore 0.6.2+ or AltStore 2.2.1+. Release: https://github.com/LiveContainer/LiveContainer/releases/tag/nightly",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "version": "3.8.0",
-          "date": "2026-07-17T07:44:20Z",
-          "size": 4707271,
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-          "localizedDescription": "Standalone LiveContainer (needs SideStore 0.6.2+).",
-          "minOSVersion": "14.0"
+          "version": "3.8.11",
+          "date": "2026-10-17T08:31:56Z",
+          "size": 4744959,
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
+          "localizedDescription": "Run unsigned iOS apps in a container without installing them. This is the nightly preview IPA, version 3.8.11, and may be less stable than a tagged release. Standalone installation requires SideStore 0.6.2+ or AltStore 2.2.1+. Requires iOS 15 or later.",
+          "minOSVersion": "15.0"
         }
       ]
     },
@@ -232,24 +294,24 @@
       "bundleIdentifier": "com.SideStore.SideStore",
       "developerName": "SideStore Team",
       "subtitle": "AltStore fork - no AltServer required",
-      "localizedDescription": "Community fork of AltStore that refreshes apps on-device via WireGuard/idevice pairing. AGPL-3.0. Use with LiveContainer or as your daily sidestore. Latest 0.6.3 fixes VPN on iOS 26.4+ (reinstall via iloader advised).",
+      "localizedDescription": "PRE-RELEASE SideStore 0.7.0-alpha. The upstream maintainers say 0.6.4 and earlier have a sign-in failure and this alpha addresses the Apple-side 503 issue. This is a preview build, so expect possible bugs. Requires iOS 15 or later.",
       "iconURL": "https://github.com/SideStore.png",
       "tintColor": "00C7BE",
       "category": "utilities",
-      "size": 28632252,
-      "version": "0.6.3",
-      "versionDate": "2026-05-05T03:59:02Z",
-      "versionDescription": "0.6.3 - iOS 26.4 VPN fix. https://github.com/SideStore/SideStore/releases/tag/0.6.3",
-      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
-      "minOSVersion": "14.0",
+      "size": 27770821,
+      "version": "0.7.0-20260911.328+6032424a",
+      "versionDate": "2026-09-15T11:12:49Z",
+      "versionDescription": "PRE-RELEASE 0.7.0-alpha (build 20260911.328, published 2026-09-15). The maintainers say this build fixes the 503 sign-in failure affecting 0.6.4 and earlier. Release notes: https://github.com/SideStore/SideStore/releases/tag/0.7.0-alpha",
+      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "version": "0.6.3",
-          "date": "2026-05-05T03:59:02Z",
-          "size": 28632252,
-          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
-          "localizedDescription": "AltStore fork with on-device refresh.",
-          "minOSVersion": "14.0"
+          "version": "0.7.0-20260911.328+6032424a",
+          "date": "2026-09-15T11:12:49Z",
+          "size": 27770821,
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
+          "localizedDescription": "PRE-RELEASE SideStore 0.7.0-alpha. The upstream maintainers say 0.6.4 and earlier have a sign-in failure and this alpha addresses the Apple-side 503 issue. This is a preview build, so expect possible bugs. Requires iOS 15 or later.",
+          "minOSVersion": "15.0"
         }
       ]
     },
@@ -258,23 +320,23 @@
       "bundleIdentifier": "app.ish.iSH",
       "developerName": "ish-app (TBL)",
       "subtitle": "Linux shell on iOS - Alpine via usermode x86 emulation",
-      "localizedDescription": "Run a full Alpine Linux shell on iOS - apk, python, git, ssh and more via lightning-fast usermode x86 emulation. No jailbreak. ROOT_BUNDLE_IDENTIFIER app.ish.iSH. Latest IPA builds/494 (2023 stable). Local iSH appstore available.",
+      "localizedDescription": "Alpine Linux shell for iOS. This is the latest official iSH IPA found, an automated pre-release build 813 (app version 1.3.3), not a stable release. It may contain development bugs.",
       "iconURL": "https://github.com/ish-app.png",
       "tintColor": "000000",
       "category": "utilities",
-      "size": 4232682,
-      "version": "494",
-      "versionDate": "2023-05-20T23:52:42Z",
-      "versionDescription": "builds/494 - diagnostics fix. https://github.com/ish-app/ish/releases/tag/builds/494",
-      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+      "size": 4602446,
+      "version": "1.3.3",
+      "versionDate": "2026-08-22T06:20:14Z",
+      "versionDescription": "PRE-RELEASE automated daily build 813 (2026-08-22), app version 1.3.3. Release: https://github.com/ish-app/ish/releases/tag/builds/813",
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
       "minOSVersion": "11.0",
       "versions": [
         {
-          "version": "494",
-          "date": "2023-05-20T23:52:42Z",
-          "size": 4232682,
-          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
-          "localizedDescription": "Linux shell for iOS - run Alpine packages on iPhone/iPad.",
+          "version": "1.3.3",
+          "date": "2026-08-22T06:20:14Z",
+          "size": 4602446,
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
+          "localizedDescription": "Alpine Linux shell for iOS. This is the latest official iSH IPA found, an automated pre-release build 813 (app version 1.3.3), not a stable release. It may contain development bugs.",
           "minOSVersion": "11.0"
         }
       ]
@@ -284,26 +346,57 @@
       "bundleIdentifier": "com.stik.stikdebug",
       "developerName": "StiKDebug (StikDebug)",
       "subtitle": "On-device debugger & JIT enabler for iOS 17.4+",
-      "localizedDescription": "Enable JIT for UTM/Provenance/Delta without a Mac/PC via idevice pairing. Required companion for UTM HV and many emulators on iOS 17.4+. AGPL-3.0. Uses the SideStore pairing flow.",
+      "localizedDescription": "On-device debugger and JIT enabler for iOS 17.4+. Version 3.2.0 adds pairing-file creation and management for this device and external devices, including Apple TV.",
       "iconURL": "https://github.com/StiKDebug.png",
       "tintColor": "FF2D55",
       "category": "developer",
-      "size": 12822956,
-      "version": "3.1.9",
-      "versionDate": "2026-08-01T20:09:58Z",
-      "versionDescription": "StikDebug 3.1.9 - https://github.com/StiKDebug/StikDebug/releases/tag/3.1.9",
-      "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+      "size": 16818331,
+      "version": "3.2.0",
+      "versionDate": "2026-10-30T03:02:00Z",
+      "versionDescription": "StikDebug 3.2.0 (2026-10-30). Adds on-device pairing-file creation and management. Release: https://github.com/StiKDebug/StikDebug/releases/tag/3.2.0",
+      "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
       "minOSVersion": "17.4",
       "versions": [
         {
-          "version": "3.1.9",
-          "date": "2026-08-01T20:09:58Z",
-          "size": 12822956,
-          "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
-          "localizedDescription": "JIT enabler for iOS 17.4+ - pair once, enable JIT for any app.",
+          "version": "3.2.0",
+          "date": "2026-10-30T03:02:00Z",
+          "size": 16818331,
+          "downloadURL": "https://github.com/StiKDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
+          "localizedDescription": "On-device debugger and JIT enabler for iOS 17.4+. Version 3.2.0 adds pairing-file creation and management for this device and external devices, including Apple TV.",
           "minOSVersion": "17.4"
         }
       ]
+    },
+    {
+      "name": "Roam Control",
+      "bundleIdentifier": "com.roamcontrol",
+      "developerName": "Sean Howarth",
+      "subtitle": "Location testing and route simulation for developers",
+      "localizedDescription": "Developer/testing utility for simulating device locations and routes. Requires iOS 27 or later, Developer Mode and LocalDevVPN. Use only on devices and services you are authorized to test, and follow each service's rules. This is an unsigned upstream IPA; sign it with SideStore or another compatible installer.",
+      "iconURL": "https://github.com/seanhowarthdev.png",
+      "tintColor": "34C759",
+      "category": "developer",
+      "size": 4627321,
+      "version": "0.9.9",
+      "versionDate": "2026-10-20T19:33:03Z",
+      "versionDescription": "Roam Control 0.9.9 build 105 (2026-10-20). Requires iOS 27+, Developer Mode and LocalDevVPN. Release: https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.9",
+      "downloadURL": "https://github.com/seanhowarthdev/Roam-Control/releases/download/v0.9.9/RoamControl-0.9.9-Build105.ipa",
+      "minOSVersion": "27.0",
+      "versions": [
+        {
+          "version": "0.9.9",
+          "date": "2026-10-20T19:33:03Z",
+          "size": 4627321,
+          "downloadURL": "https://github.com/seanhowarthdev/Roam-Control/releases/download/v0.9.9/RoamControl-0.9.9-Build105.ipa",
+          "localizedDescription": "Developer/testing utility for simulating device locations and routes. Requires iOS 27 or later, Developer Mode and LocalDevVPN. Use only on devices and services you are authorized to test, and follow each service's rules. This is an unsigned upstream IPA; sign it with SideStore or another compatible installer.",
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
     },
     {
       "name": "Spotube",
@@ -330,6 +423,37 @@
           "minOSVersion": "14.0"
         }
       ]
+    },
+    {
+      "name": "Spotube 6 Beta",
+      "bundleIdentifier": "org.spotube.spotube.Spotube",
+      "developerName": "Spotube Team",
+      "subtitle": "Compose Multiplatform preview of the open music client",
+      "localizedDescription": "PRE-RELEASE Spotube 6.0.0 beta.0, a major migration from Flutter to Compose Multiplatform. This preview uses a new bundle ID, so it is listed separately from stable Spotube 5.1.2. Requires iOS 18.2 or later. Use only with music sources you are authorized to access.",
+      "iconURL": "https://github.com/team-spotube.png",
+      "tintColor": "AF52DE",
+      "category": "music",
+      "size": 30157790,
+      "version": "6.0.0-beta.0",
+      "versionDate": "2026-10-30T12:01:45Z",
+      "versionDescription": "PRE-RELEASE Spotube 6.0.0 beta.0 (2026-10-30). New Compose Multiplatform build and bundle ID. Requires iOS 18.2+. Release: https://github.com/team-spotube/spotube/releases/tag/v6.0.0-beta.0",
+      "downloadURL": "https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-ios.ipa",
+      "minOSVersion": "18.2",
+      "versions": [
+        {
+          "version": "6.0.0-beta.0",
+          "date": "2026-10-30T12:01:45Z",
+          "size": 30157790,
+          "downloadURL": "https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-ios.ipa",
+          "localizedDescription": "PRE-RELEASE Spotube 6.0.0 beta.0, a major migration from Flutter to Compose Multiplatform. This preview uses a new bundle ID, so it is listed separately from stable Spotube 5.1.2. Requires iOS 18.2 or later. Use only with music sources you are authorized to access.",
+          "minOSVersion": "18.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
     },
     {
       "name": "BHTwitter",
@@ -492,24 +616,24 @@
       "bundleIdentifier": "stream.yattee.app",
       "developerName": "yattee",
       "subtitle": "Privacy YouTube frontend for iOS/tvOS/macOS (AGPL)",
-      "localizedDescription": "Yattee is a privacy-focused YouTube player for iOS, tvOS and macOS with no ads, background playback, SponsorBlock and Invidious/Piped support. AGPL-3.0, SwiftUI, 3.6k stars. v1.5.1 is the last stable Release IPA before the 2.0 beta branch (beta has no stable IPA tag yet). Includes iOS + tvOS IPAs.",
+      "localizedDescription": "Privacy-focused YouTube player for iOS with Invidious/Piped support. This is the 2.0.0 beta, not a stable release; it requires iOS 18 or later and may contain bugs.",
       "iconURL": "https://github.com/yattee.png",
       "tintColor": "FF375F",
       "category": "entertainment",
-      "size": 20792685,
-      "version": "1.5.1",
-      "versionDate": "2024-01-28T14:45:07Z",
-      "versionDescription": "Yattee v1.5.1 — privacy YouTube player. https://github.com/yattee/yattee/releases/tag/v1.5.1",
-      "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
-      "minOSVersion": "14.0",
+      "size": 39795855,
+      "version": "2.0.0-beta.278",
+      "versionDate": "2026-10-31T19:49:09Z",
+      "versionDescription": "PRE-RELEASE Yattee 2.0.0 beta build 278 (2026-10-31). Requires iOS 18 or later. Release: https://github.com/yattee/yattee/releases/tag/2.0.0-beta.278",
+      "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.278/Yattee-2.0.0-iOS.ipa",
+      "minOSVersion": "18.0",
       "versions": [
         {
-          "version": "1.5.1",
-          "date": "2024-01-28T14:45:07Z",
-          "size": 20792685,
-          "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
-          "localizedDescription": "Privacy YouTube player — no ads, background play, Invidious/Piped.",
-          "minOSVersion": "14.0"
+          "version": "2.0.0-beta.278",
+          "date": "2026-10-31T19:49:09Z",
+          "size": 39795855,
+          "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.278/Yattee-2.0.0-iOS.ipa",
+          "localizedDescription": "Privacy-focused YouTube player for iOS with Invidious/Piped support. This is the 2.0.0 beta, not a stable release; it requires iOS 18 or later and may contain bugs.",
+          "minOSVersion": "18.0"
         }
       ]
     },
@@ -648,29 +772,70 @@
       "bundleIdentifier": "com.example.Mirarr",
       "developerName": "Mirarr App",
       "subtitle": "FOSS movie & TV app — watch movies and TV shows",
-      "localizedDescription": "Mirarr is a free and open-source movie & TV app that simplifies watching movies and TV shows. Cross-platform Flutter app for iOS, Android, Windows, Linux and Web. This is the official unsigned GitHub Release IPA (v3.3.2), ready for Sidestore signing. 850+ stars.",
+      "localizedDescription": "Open-source cross-platform movie and TV app. Mirarr 3.3.3 is the official unsigned GitHub Release IPA and can be signed by SideStore. Use only with media sources you are authorized to access.",
       "iconURL": "https://github.com/mirarr-app.png",
       "tintColor": "E50914",
       "category": "entertainment",
-      "size": 11717881,
-      "version": "3.3.2",
-      "versionDate": "2026-07-27T16:03:41Z",
-      "versionDescription": "Mirarr v3.3.2 — official Release IPA. https://github.com/mirarr-app/mirarr/releases/tag/3.3.2",
-      "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
+      "size": 11800313,
+      "version": "3.3.3",
+      "versionDate": "2026-09-11T08:30:12Z",
+      "versionDescription": "Mirarr 3.3.3 (2026-09-11). Fixes profile/discover text readability and Omarchy theme paths. Release: https://github.com/mirarr-app/mirarr/releases/tag/3.3.3",
+      "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.3/mirarr.ipa",
       "minOSVersion": "13.0",
       "versions": [
         {
-          "version": "3.3.2",
-          "date": "2026-07-27T16:03:41Z",
-          "size": 11717881,
-          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
-          "localizedDescription": "Official Mirarr v3.3.2 Release IPA (unsigned, Sidestore-signable). See release notes on GitHub.",
+          "version": "3.3.3",
+          "date": "2026-09-11T08:30:12Z",
+          "size": 11800313,
+          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.3/mirarr.ipa",
+          "localizedDescription": "Open-source cross-platform movie and TV app. Mirarr 3.3.3 is the official unsigned GitHub Release IPA and can be signed by SideStore. Use only with media sources you are authorized to access.",
           "minOSVersion": "13.0"
         }
       ]
+    },
+    {
+      "name": "AerioTV",
+      "bundleIdentifier": "app.molinete.aerio",
+      "developerName": "jonzey231",
+      "subtitle": "IPTV player for user-configured servers and playlists",
+      "localizedDescription": "GPL-3.0 iPhone, iPad and tvOS player for user-configured Dispatcharr, Xtream Codes and M3U/EPG sources, with live TV, video-on-demand, radio and recording features. The app does not include media or playlists; use only sources you are authorized to access. Requires iOS 18.0 or later.",
+      "iconURL": "https://github.com/jonzey231.png",
+      "tintColor": "007AFF",
+      "category": "entertainment",
+      "size": 22052718,
+      "version": "1.8.44",
+      "versionDate": "2026-10-16T19:29:33Z",
+      "versionDescription": "AerioTV 1.8.44 (2026-10-16). Official iOS IPA. Release: https://github.com/jonzey231/AerioTV/releases/tag/v1.8.44",
+      "downloadURL": "https://github.com/jonzey231/AerioTV/releases/download/v1.8.44/Aerio_iOS_1.8.44.ipa",
+      "minOSVersion": "18.0",
+      "versions": [
+        {
+          "version": "1.8.44",
+          "date": "2026-10-16T19:29:33Z",
+          "size": 22052718,
+          "downloadURL": "https://github.com/jonzey231/AerioTV/releases/download/v1.8.44/Aerio_iOS_1.8.44.ipa",
+          "localizedDescription": "GPL-3.0 iPhone, iPad and tvOS player for user-configured Dispatcharr, Xtream Codes and M3U/EPG sources, with live TV, video-on-demand, radio and recording features. The app does not include media or playlists; use only sources you are authorized to access. Requires iOS 18.0 or later.",
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": []
     }
   ],
   "news": [
+    {
+      "title": "Catalog refresh: latest IPAs and 5 additions (30 apps)",
+      "identifier": "update-2026-11-02-latest-builds-and-apps",
+      "caption": "Updated UTM, SideStore, iSH, LiveContainer, StikDebug, Yattee and Mirarr from upstream GitHub releases. Added Provenance Alpha, Pocket8, Spotube 6 Beta, AerioTV and Roam Control. Alpha/beta/nightly builds and their iOS requirements are labelled in the app descriptions.",
+      "date": "2026-11-02T08:07:00Z",
+      "tintColor": "0A84FF",
+      "imageURL": "https://github.com/SideStore.png",
+      "notify": true,
+      "url": "https://github.com/KB01111/Sideload-Sources"
+    },
     {
       "title": "NEW: Mirarr 3.3.2 — FOSS movie & TV app (25 apps!)",
       "identifier": "update-2026-08-08-mirarr",
