@@ -1,6 +1,6 @@
 # Kevin's GitHub Sideload Source
 
-A SideStore/AltStore catalog of iOS apps whose install packages are published as first-party GitHub Release assets. It now contains **31 entries**. Every package link goes directly to its upstream release asset; there are no repacked IPAs.
+A SideStore/AltStore catalog of iOS apps whose install packages are published as first-party GitHub Release assets. It now contains **33 entries**. Every package link goes directly to its upstream release asset; there are no repacked IPAs.
 
 The latest relevant upstream IPA is listed. Alpha, beta, nightly and automated daily builds are marked **PRE-RELEASE**. Where upstream changes a bundle ID, the preview is listed separately rather than presented as an update to the stable app. Read each app description and minimum iOS version before installing.
 
@@ -42,6 +42,8 @@ In SideStore, open **Settings → Sources → Add Source** and paste the URL. Af
 | Misaka | `com.straighttamago.misaka` | [8.2.4](https://github.com/straight-tamago/misaka/releases/tag/8.2.4) | KFD/MDC customization tool. |
 | Yattee | `stream.yattee.app` | [2.0.0-beta.278](https://github.com/yattee/yattee/releases/tag/2.0.0-beta.278) | PRE-RELEASE privacy-focused YouTube player; iOS 18+. |
 | YouProEXTRA / YTKACE | `com.google.ios.youtube` | [YouProEXTRA 6.0-b2](https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6), YouTube 21.43.5 | The latest entry is an unofficial build that the uploader labels cracked; iOS 17+. YTKACE 1.1.4 iOS 17+ and iOS 16 builds remain available in the version list. |
+| TwitchMods | `tv.twitch` | [Twitch 31.7](https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v31.7-0.1.17) | Official no-plugins modified IPA; iOS 16.4+. Uses a proxy for ad filtering; review privacy and service risks. Auto-tracked. |
+| Discord Mods (Unbound / KettuTweak) | `com.hammerandchisel.discord` | [Unbound 352.1](https://github.com/marioparaschiv/unbound/releases/tag/loader-latest) | One bundle ID: Unbound is current and includes five extensions; KettuTweak 305.1 is an older selectable build. iOS 16+ for Unbound; iOS 15.1+ for KettuTweak. Auto-tracked. |
 | Paperback | `com.paperback.ios` | [0.8.11-r2](https://github.com/Paperback-iOS/app/releases/tag/v0.8.11-r2) | Manga and comic reader. |
 | DebToIPA | `net.sourceloc.DebToIPA` | [1.1.1](https://github.com/sourcelocation/DebToIPA/releases/tag/1.1.1) | Convert `.deb` packages to IPA on-device. |
 | ModMyIPA | `com.powen.ModMyIPA` | [1.0.2](https://github.com/powenn/ModMyIPA/releases/tag/1.0.2) | Change an IPA's bundle identifier to install a separate copy. |
@@ -59,9 +61,15 @@ SideStore 0.7.0-alpha is listed because the upstream release page says 0.6.4 and
 
 Pocket8 needs cartridges supplied by the user. AerioTV needs a user-configured server or playlist; the catalog does not include media. Roam Control is a developer/testing tool and requires iOS 27 or later, Developer Mode and LocalDevVPN. These requirements are shown in the source app descriptions as well.
 
+## Automatic updates for modified clients
+
+The repository GitHub Action at `.github/workflows/update-tweaked-apps.yml` checks the official GitHub release assets for TwitchMods, Unbound, and KettuTweak every six hours, and can also be run manually from the Actions tab. When an upstream IPA changes, the updater reads that IPA's `Info.plist` and updates the catalog version, package size, download link, and iOS minimum. Unbound and KettuTweak share Discord's bundle ID, so they remain under one source listing. The action only tracks these three projects; the other catalog entries are not automatically refreshed.
+
+The action updates and publishes the source feed, but it does not silently install an app on an iPhone. Refresh the source in SideStore and tap **Update** when SideStore offers it. SideStore requires the source version to match `CFBundleShortVersionString`; when a tweak-only release changes the IPA but leaves the embedded app version unchanged, SideStore may not show its normal update button even though the source asset has been refreshed. Such a release is noted in the feed news; reinstalling that unchanged-version build may still require a manual step.
+
 ## Maintenance
 
-App versions, sizes, bundle IDs and minimum iOS requirements are taken from the upstream release metadata and, where practical, the IPA's `Info.plist`. Each `downloadURL` should point to the project's own GitHub Release asset. Before publishing a catalog refresh, validate the JSON and send a `HEAD` request to every package URL.
+Catalog versions, sizes, bundle IDs and minimum iOS requirements are taken from upstream metadata and the IPA's `Info.plist`. The scheduled updater validates the embedded bundle ID against the tracked entry before publishing. Other apps not listed in the updater configuration still require manual maintenance.
 
 ## TrollStore-only apps
 

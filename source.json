@@ -2,7 +2,7 @@
   "name": "Kevin's Legit GitHub Sideload",
   "identifier": "com.kevin.legit-github-sideload",
   "subtitle": "Open-source + tweaked IPAs — every IPA from GitHub Releases",
-  "description": "Curated SideStore/AltStore source — 31 direct upstream GitHub Release IPAs. The latest relevant release IPA is listed; alpha, beta, nightly and automated daily builds are clearly labelled as previews. No repacked downloads. Add via SideStore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
+  "description": "Curated SideStore/AltStore source — 33 direct upstream GitHub Release IPAs. The latest relevant release IPA is listed; alpha, beta, nightly and automated daily builds are clearly labelled as previews. No repacked downloads. Add via SideStore: Settings > Sources > Add Source > https://kb01111.github.io/Sideload-Sources/source.json",
   "iconURL": "https://github.com/KB01111.png",
   "website": "https://github.com/KB01111/Sideload-Sources",
   "sourceURL": "https://kb01111.github.io/Sideload-Sources/source.json",
@@ -873,9 +873,89 @@
         "privacy": []
       },
       "screenshots": []
+    },
+    {
+      "name": "TwitchMods",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "gunnerkidBT and TwitchAdBlock contributors",
+      "subtitle": "Unofficial Twitch client modification",
+      "localizedDescription": "A community-modified Twitch client based on the TwitchAdBlock project. The selected upstream IPA is the no-plugins build for easier signing. It adds interface and chat features and filters ads using a proxy service; proxy availability and privacy are considerations. This is an unofficial fork, not endorsed by Twitch. Compatibility follows the bundled Twitch app version, and changes may affect Twitch account or service behavior.",
+      "iconURL": "https://github.com/gunnerkidBT.png",
+      "tintColor": "9146FF",
+      "category": "entertainment",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": [],
+      "version": "31.7",
+      "versionDate": "2026-11-01T22:28:27Z",
+      "versionDescription": "TwitchAdBlock fork v31.7-0.1.17; bundled Twitch 31.7. No-plugins IPA. Filtering uses a proxy; review the upstream project and privacy implications before installing. Requires iOS 16.4 or later.",
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.17/tv.twitch-31.7-TwitchAdBlock-0.1.17-noplugins.ipa",
+      "size": 187349220,
+      "minOSVersion": "16.4",
+      "versions": [
+        {
+          "version": "31.7",
+          "date": "2026-11-01T22:28:27Z",
+          "size": 187349220,
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.17/tv.twitch-31.7-TwitchAdBlock-0.1.17-noplugins.ipa",
+          "localizedDescription": "TwitchAdBlock fork v31.7-0.1.17; bundled Twitch 31.7. No-plugins IPA. Filtering uses a proxy; review the upstream project and privacy implications before installing. Requires iOS 16.4 or later.",
+          "minOSVersion": "16.4"
+        }
+      ]
+    },
+    {
+      "name": "Discord Mods (Unbound / KettuTweak)",
+      "bundleIdentifier": "com.hammerandchisel.discord",
+      "developerName": "Unbound and KettuTweak contributors",
+      "subtitle": "Choose a community-modified Discord build",
+      "localizedDescription": "Unofficial Discord client modifications sharing Discord's bundle identifier, so only one can be installed under this ID at a time. The newest listed build is Unbound and includes multiple app extensions that can consume signing App IDs. KettuTweak is an older Discord 305.1 build and may no longer be compatible with Discord's current service. These projects are not affiliated with Discord; plugins and modified clients carry compatibility, trust, and account-policy risks. Back up important app data before replacing an existing Discord installation.",
+      "iconURL": "https://github.com/marioparaschiv.png",
+      "tintColor": "5865F2",
+      "category": "social",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "screenshots": [],
+      "version": "352.1",
+      "versionDate": "2026-11-05T12:28:44Z",
+      "versionDescription": "Unbound official IPA, Discord 352.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+      "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+      "size": 108015163,
+      "minOSVersion": "16.0",
+      "versions": [
+        {
+          "version": "352.1",
+          "date": "2026-11-05T12:28:44Z",
+          "size": 108015163,
+          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+          "localizedDescription": "Unbound official IPA, Discord 352.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "305.1",
+          "date": "2026-03-08T22:04:51Z",
+          "size": 94058786,
+          "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa",
+          "localizedDescription": "KettuTweak official IPA, Discord 305.1, upstream release v305.1. This project currently provides an older Discord build; it may not work with the current Discord service. Requires iOS 15.1 or later.",
+          "minOSVersion": "15.1"
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Added TwitchMods and Discord mods; release checks automated",
+      "identifier": "update-2026-11-05-tweaked-apps",
+      "caption": "Added TwitchMods and a single Discord-mod listing with Unbound and the older KettuTweak build, each linked to official IPA assets. GitHub Actions now checks their upstream releases every six hours and refreshes the catalog metadata. SideStore still requires source refresh and a tap on Update; unchanged embedded app versions may not trigger its update button.",
+      "date": "2026-11-05T14:33:00Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/KB01111/Sideload-Sources/actions/workflows/update-tweaked-apps.yml"
+    },
     {
       "title": "Added YouProEXTRA YouTube build; retained YTKACE options",
       "identifier": "update-2026-11-02-youproextra",

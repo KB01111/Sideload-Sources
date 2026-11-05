@@ -1,0 +1,56 @@
+{
+  "groups": {
+    "twitchmods": {
+      "name": "TwitchMods",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "gunnerkidBT and TwitchAdBlock contributors",
+      "subtitle": "Unofficial Twitch client modification",
+      "localizedDescription": "A community-modified Twitch client based on the TwitchAdBlock project. The selected upstream IPA is the no-plugins build for easier signing. It adds interface and chat features and filters ads using a proxy service; proxy availability and privacy are considerations. This is an unofficial fork, not endorsed by Twitch. Compatibility follows the bundled Twitch app version, and changes may affect Twitch account or service behavior.",
+      "iconURL": "https://github.com/gunnerkidBT.png",
+      "tintColor": "9146FF",
+      "category": "entertainment"
+    },
+    "discord-mods": {
+      "name": "Discord Mods (Unbound / KettuTweak)",
+      "bundleIdentifier": "com.hammerandchisel.discord",
+      "developerName": "Unbound and KettuTweak contributors",
+      "subtitle": "Choose a community-modified Discord build",
+      "localizedDescription": "Unofficial Discord client modifications sharing Discord's bundle identifier, so only one can be installed under this ID at a time. The newest listed build is Unbound and includes multiple app extensions that can consume signing App IDs. KettuTweak is an older Discord 305.1 build and may no longer be compatible with Discord's current service. These projects are not affiliated with Discord; plugins and modified clients carry compatibility, trust, and account-policy risks. Back up important app data before replacing an existing Discord installation.",
+      "iconURL": "https://github.com/marioparaschiv.png",
+      "tintColor": "5865F2",
+      "category": "social"
+    }
+  },
+  "projects": [
+    {
+      "repo": "gunnerkidBT/TwitchAdBlock",
+      "group": "twitchmods",
+      "displayName": "TwitchMods",
+      "assetGlob": "*-noplugins.ipa",
+      "expectedBundleIdentifier": "tv.twitch",
+      "releasePolicy": "latest-stable-with-matching-ipa",
+      "description": "TwitchAdBlock fork {tag}; bundled Twitch {version}. No-plugins IPA. Filtering uses a proxy; review the upstream project and privacy implications before installing.",
+      "minimumIOSNote": "Read from the bundled app Info.plist."
+    },
+    {
+      "repo": "marioparaschiv/unbound",
+      "group": "discord-mods",
+      "displayName": "Unbound",
+      "assetGlob": "Unbound.ipa",
+      "expectedBundleIdentifier": "com.hammerandchisel.discord",
+      "releasePolicy": "latest-stable-with-matching-ipa",
+      "description": "Unbound official IPA, Discord {version}, upstream release {tag}. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility.",
+      "minimumIOSNote": "Read from the bundled app Info.plist."
+    },
+    {
+      "repo": "C0C0B01/KettuTweak",
+      "group": "discord-mods",
+      "displayName": "KettuTweak",
+      "assetGlob": "KettuTweak.ipa",
+      "expectedBundleIdentifier": "com.hammerandchisel.discord",
+      "releasePolicy": "latest-stable-with-matching-ipa",
+      "description": "KettuTweak official IPA, Discord {version}, upstream release {tag}. This project currently provides an older Discord build; it may not work with the current Discord service.",
+      "minimumIOSNote": "Read from the bundled app Info.plist."
+    }
+  ]
+}

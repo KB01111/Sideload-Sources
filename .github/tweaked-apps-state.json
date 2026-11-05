@@ -1,0 +1,34 @@
+{
+  "projects": {
+    "gunnerkidBT/TwitchAdBlock": {
+      "releaseId": 430900261,
+      "tag": "v31.7-0.1.17",
+      "assetId": 699710047,
+      "assetUpdatedAt": "2026-11-01T22:28:25Z",
+      "version": "31.7",
+      "minOSVersion": "16.4",
+      "size": 187349220,
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.17/tv.twitch-31.7-TwitchAdBlock-0.1.17-noplugins.ipa"
+    },
+    "marioparaschiv/unbound": {
+      "releaseId": 435175021,
+      "tag": "loader-latest",
+      "assetId": 713339118,
+      "assetUpdatedAt": "2026-11-05T12:28:42Z",
+      "version": "352.1",
+      "minOSVersion": "16.0",
+      "size": 108015163,
+      "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa"
+    },
+    "C0C0B01/KettuTweak": {
+      "releaseId": 294470158,
+      "tag": "v305.1",
+      "assetId": 369656140,
+      "assetUpdatedAt": "2026-03-08T22:04:50Z",
+      "version": "305.1",
+      "minOSVersion": "15.1",
+      "size": 94058786,
+      "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa"
+    }
+  }
+}

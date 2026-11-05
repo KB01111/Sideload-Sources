@@ -1,0 +1,45 @@
+name: Update tweaked app catalog entries
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tweaked-apps
+  cancel-in-progress: false
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Discover and validate upstream IPA releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_tweaked_apps.py
+
+      - name: Validate source JSON and whitespace
+        run: |
+          python3 -m json.tool source.json > /dev/null
+          git diff --check
+
+      - name: Publish catalog changes
+        run: |
+          if git diff --quiet; then
+            echo "No upstream IPA changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add source.json .github/tweaked-apps-state.json
+          git commit -m "Auto-update tweaked app catalog releases"
+          git push origin HEAD:main
