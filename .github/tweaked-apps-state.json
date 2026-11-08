@@ -1,14 +1,14 @@
 {
   "projects": {
     "gunnerkidBT/TwitchAdBlock": {
-      "releaseId": 430900261,
-      "tag": "v31.7-0.1.17",
-      "assetId": 699710047,
-      "assetUpdatedAt": "2026-11-01T22:28:25Z",
-      "version": "31.7",
+      "releaseId": 438407246,
+      "tag": "v31.9-0.1.18",
+      "assetId": 724694578,
+      "assetUpdatedAt": "2026-11-08T17:40:01Z",
+      "version": "31.9",
       "minOSVersion": "16.4",
-      "size": 187349220,
-      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.17/tv.twitch-31.7-TwitchAdBlock-0.1.17-noplugins.ipa"
+      "size": 187393926,
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.18/tv.twitch-31.9-TwitchAdBlock-0.1.18-noplugins.ipa"
     },
     "marioparaschiv/unbound": {
       "releaseId": 435175021,
