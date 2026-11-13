@@ -928,16 +928,16 @@
       },
       "screenshots": [],
       "version": "353.0",
-      "versionDate": "2026-11-12T17:54:50Z",
+      "versionDate": "2026-11-13T17:59:45Z",
       "versionDescription": "Unbound official IPA, Discord 353.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 100656028,
+      "size": 100758657,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "353.0",
-          "date": "2026-11-12T17:54:50Z",
-          "size": 100656028,
+          "date": "2026-11-13T17:59:45Z",
+          "size": 100758657,
           "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
           "localizedDescription": "Unbound official IPA, Discord 353.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
           "minOSVersion": "16.0"
@@ -962,6 +962,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 353.0",
+      "identifier": "auto-marioparaschiv-unbound-744627679",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 353.0 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. The IPA's embedded app version is unchanged, so SideStore may not display its normal Update button even though the upstream package changed; refresh the source and reinstall manually if you need this tweak-only rebuild.",
+      "date": "2026-11-13T17:59:45Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: TwitchMods 31.9",
       "identifier": "auto-gunnerkidBT-TwitchAdBlock-741745740",
