@@ -927,13 +927,21 @@
         "privacy": []
       },
       "screenshots": [],
-      "version": "353.0_1.6.1",
-      "versionDate": "2026-11-15T00:56:14Z",
-      "versionDescription": "Unbound official IPA, Discord 353.0_1.6.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+      "version": "353.0_1.7.1",
+      "versionDate": "2026-11-15T13:38:12Z",
+      "versionDescription": "Unbound official IPA, Discord 353.0_1.7.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 104650595,
+      "size": 104651723,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "353.0_1.7.1",
+          "date": "2026-11-15T13:38:12Z",
+          "size": 104651723,
+          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+          "localizedDescription": "Unbound official IPA, Discord 353.0_1.7.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "353.0_1.6.1",
           "date": "2026-11-15T00:56:14Z",
@@ -978,6 +986,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 353.0_1.7.1",
+      "identifier": "auto-marioparaschiv-unbound-751119439",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 353.0_1.7.1 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. SideStore can offer the newer version after the source refresh; you still need to tap its Update button in SideStore.",
+      "date": "2026-11-15T13:38:12Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: Unbound 353.0_1.6.1",
       "identifier": "auto-marioparaschiv-unbound-749324796",
