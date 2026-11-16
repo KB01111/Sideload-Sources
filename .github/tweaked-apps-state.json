@@ -13,11 +13,11 @@
     "marioparaschiv/unbound": {
       "releaseId": 445717100,
       "tag": "loader-latest",
-      "assetId": 751119439,
-      "assetUpdatedAt": "2026-11-15T13:38:12Z",
-      "version": "353.0_1.7.1",
+      "assetId": 755723967,
+      "assetUpdatedAt": "2026-11-16T17:17:52Z",
+      "version": "353.0_1.8.0",
       "minOSVersion": "16.0",
-      "size": 104651723,
+      "size": 104749962,
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa"
     },
     "C0C0B01/KettuTweak": {
