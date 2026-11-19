@@ -927,13 +927,21 @@
         "privacy": []
       },
       "screenshots": [],
-      "version": "354.0_1.10.0",
-      "versionDate": "2026-11-18T03:58:32Z",
-      "versionDescription": "Unbound official IPA, Discord 354.0_1.10.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+      "version": "354.0_1.11.0",
+      "versionDate": "2026-11-19T02:47:15Z",
+      "versionDescription": "Unbound official IPA, Discord 354.0_1.11.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 104148975,
+      "size": 104175897,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "354.0_1.11.0",
+          "date": "2026-11-19T02:47:15Z",
+          "size": 104175897,
+          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+          "localizedDescription": "Unbound official IPA, Discord 354.0_1.11.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "354.0_1.10.0",
           "date": "2026-11-18T03:58:32Z",
@@ -1005,19 +1013,21 @@
           "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
           "localizedDescription": "Unbound official IPA, Discord 352.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
           "minOSVersion": "16.0"
-        },
-        {
-          "version": "305.1",
-          "date": "2026-03-08T22:04:51Z",
-          "size": 94058786,
-          "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa",
-          "localizedDescription": "KettuTweak official IPA, Discord 305.1, upstream release v305.1. This project currently provides an older Discord build; it may not work with the current Discord service. Requires iOS 15.1 or later.",
-          "minOSVersion": "15.1"
         }
       ]
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 354.0_1.11.0",
+      "identifier": "auto-marioparaschiv-unbound-765944131",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 354.0_1.11.0 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. SideStore can offer the newer version after the source refresh; you still need to tap its Update button in SideStore.",
+      "date": "2026-11-19T02:47:15Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: Unbound 354.0_1.10.0",
       "identifier": "auto-marioparaschiv-unbound-761806865",
