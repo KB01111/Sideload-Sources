@@ -11,14 +11,14 @@
       "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.19/tv.twitch-31.9-TwitchAdBlock-0.1.19-noplugins.ipa"
     },
     "marioparaschiv/unbound": {
-      "releaseId": 454185186,
-      "tag": "loader-latest",
-      "assetId": 777783440,
-      "assetUpdatedAt": "2026-11-22T03:49:07Z",
-      "version": "354.0_1.12.2",
+      "releaseId": 449392393,
+      "tag": "discord-354.0-ios",
+      "assetId": 781682679,
+      "assetUpdatedAt": "2026-11-23T05:36:28Z",
+      "version": "354.0_1.12.4",
       "minOSVersion": "16.0",
-      "size": 104242152,
-      "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa"
+      "size": 104245417,
+      "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/discord-354.0-ios/Unbound.ipa"
     },
     "C0C0B01/KettuTweak": {
       "releaseId": 294470158,
