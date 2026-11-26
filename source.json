@@ -928,16 +928,16 @@
       },
       "screenshots": [],
       "version": "355.0_1.12.4",
-      "versionDate": "2026-11-24T02:23:10Z",
+      "versionDate": "2026-11-25T19:27:58Z",
       "versionDescription": "Unbound official IPA, Discord 355.0_1.12.4, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 85569024,
+      "size": 85569193,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "355.0_1.12.4",
-          "date": "2026-11-24T02:23:10Z",
-          "size": 85569024,
+          "date": "2026-11-25T19:27:58Z",
+          "size": 85569193,
           "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
           "localizedDescription": "Unbound official IPA, Discord 355.0_1.12.4, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
           "minOSVersion": "16.0"
@@ -1018,6 +1018,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 355.0_1.12.4",
+      "identifier": "auto-marioparaschiv-unbound-792839335",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 355.0_1.12.4 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. The IPA's embedded app version is unchanged, so SideStore may not display its normal Update button even though the upstream package changed; refresh the source and reinstall manually if you need this tweak-only rebuild.",
+      "date": "2026-11-25T19:27:58Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: Unbound 355.0_1.12.4",
       "identifier": "auto-marioparaschiv-unbound-785371070",
@@ -1305,16 +1315,6 @@
       "date": "2026-08-08T12:00:00Z",
       "tintColor": "FF2D55",
       "imageURL": "https://github.com/Lolendor.png",
-      "notify": false,
-      "url": "https://github.com/KB01111/Sideload-Sources"
-    },
-    {
-      "title": "Welcome to Kevin's Legit Source",
-      "identifier": "welcome-2026-08-08",
-      "caption": "24 apps — open-source classics, SwiftUI value apps, vetted tweaked patchers and AppDB. Every IPA links straight to its upstream GitHub Release — no repacks. If an app vanishes, check its linked tag for a newer IPA.",
-      "date": "2026-08-08T00:00:00Z",
-      "tintColor": "0A84FF",
-      "imageURL": "https://github.com/SideStore.png",
       "notify": false,
       "url": "https://github.com/KB01111/Sideload-Sources"
     }
