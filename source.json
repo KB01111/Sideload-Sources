@@ -927,13 +927,21 @@
         "privacy": []
       },
       "screenshots": [],
-      "version": "355.0_1.12.7",
-      "versionDate": "2026-11-26T12:09:27Z",
-      "versionDescription": "Unbound official IPA, Discord 355.0_1.12.7, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+      "version": "355.0_1.12.9",
+      "versionDate": "2026-11-26T16:40:58Z",
+      "versionDescription": "Unbound official IPA, Discord 355.0_1.12.9, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 85567823,
+      "size": 85568956,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "355.0_1.12.9",
+          "date": "2026-11-26T16:40:58Z",
+          "size": 85568956,
+          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+          "localizedDescription": "Unbound official IPA, Discord 355.0_1.12.9, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "355.0_1.12.7",
           "date": "2026-11-26T12:09:27Z",
@@ -1013,11 +1021,29 @@
           "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
           "localizedDescription": "Unbound official IPA, Discord 353.0_1.8.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
           "minOSVersion": "16.0"
+        },
+        {
+          "version": "305.1",
+          "date": "2026-03-08T22:04:51Z",
+          "size": 94058786,
+          "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa",
+          "localizedDescription": "KettuTweak official IPA, Discord 305.1, upstream release v305.1. This project currently provides an older Discord build; it may not work with the current Discord service. Requires iOS 15.1 or later.",
+          "minOSVersion": "15.1"
         }
       ]
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 355.0_1.12.9",
+      "identifier": "auto-marioparaschiv-unbound-796794716",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 355.0_1.12.9 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. SideStore can offer the newer version after the source refresh; you still need to tap its Update button in SideStore.",
+      "date": "2026-11-26T16:40:58Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: Unbound 355.0_1.12.7",
       "identifier": "auto-marioparaschiv-unbound-795723702",
@@ -1307,16 +1333,6 @@
       "imageURL": "https://github.com/Lessica.png",
       "notify": true,
       "url": "https://github.com/Lessica/TrollRecorder"
-    },
-    {
-      "title": "UPDATE: AppDB + 7 more added — 24 apps live!",
-      "identifier": "update-2026-08-08-appdb-plus7",
-      "caption": "NEW: AppDB (full appdb.to client) plus Cowabunga & Misaka (MDC/KFD theming), Yattee (privacy YouTube), Paperback (manga), DebToIPA/ModMyIPA/Azula (on-device patch helpers). All are official GitHub Release IPAs — pull-to-refresh Sources to update.",
-      "date": "2026-08-08T16:00:00Z",
-      "tintColor": "FF3B30",
-      "imageURL": "https://github.com/n3d1117.png",
-      "notify": false,
-      "url": "https://github.com/KB01111/Sideload-Sources"
     }
   ]
 }
