@@ -1007,12 +1007,12 @@
           "minOSVersion": "16.0"
         },
         {
-          "version": "353.0_1.9.0",
-          "date": "2026-11-17T19:25:39Z",
-          "size": 104755102,
-          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-          "localizedDescription": "Unbound official IPA, Discord 353.0_1.9.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
-          "minOSVersion": "16.0"
+          "version": "305.1",
+          "date": "2026-03-08T22:04:51Z",
+          "size": 94058786,
+          "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa",
+          "localizedDescription": "KettuTweak official IPA, Discord 305.1, upstream release v305.1. This project currently provides an older Discord build; it may not work with the current Discord service. Requires iOS 15.1 or later.",
+          "minOSVersion": "15.1"
         }
       ]
     }
