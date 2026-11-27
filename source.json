@@ -927,13 +927,21 @@
         "privacy": []
       },
       "screenshots": [],
-      "version": "355.0_1.12.9",
-      "versionDate": "2026-11-26T16:40:58Z",
-      "versionDescription": "Unbound official IPA, Discord 355.0_1.12.9, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+      "version": "355.0_1.13.0",
+      "versionDate": "2026-11-26T19:39:30Z",
+      "versionDescription": "Unbound official IPA, Discord 355.0_1.13.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
       "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-      "size": 85568956,
+      "size": 85568821,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "355.0_1.13.0",
+          "date": "2026-11-26T19:39:30Z",
+          "size": 85568821,
+          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
+          "localizedDescription": "Unbound official IPA, Discord 355.0_1.13.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "355.0_1.12.9",
           "date": "2026-11-26T16:40:58Z",
@@ -1005,35 +1013,21 @@
           "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
           "localizedDescription": "Unbound official IPA, Discord 353.0_1.9.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
           "minOSVersion": "16.0"
-        },
-        {
-          "version": "353.0_1.8.1",
-          "date": "2026-11-17T02:47:09Z",
-          "size": 104750138,
-          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-          "localizedDescription": "Unbound official IPA, Discord 353.0_1.8.1, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "353.0_1.8.0",
-          "date": "2026-11-16T17:17:52Z",
-          "size": 104749962,
-          "downloadURL": "https://github.com/marioparaschiv/unbound/releases/download/loader-latest/Unbound.ipa",
-          "localizedDescription": "Unbound official IPA, Discord 353.0_1.8.0, upstream release loader-latest. The current inspected build contains five app extensions; free signing may use multiple App IDs. Discord updates can break compatibility. Requires iOS 16.0 or later.",
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "305.1",
-          "date": "2026-03-08T22:04:51Z",
-          "size": 94058786,
-          "downloadURL": "https://github.com/C0C0B01/KettuTweak/releases/download/v305.1/KettuTweak.ipa",
-          "localizedDescription": "KettuTweak official IPA, Discord 305.1, upstream release v305.1. This project currently provides an older Discord build; it may not work with the current Discord service. Requires iOS 15.1 or later.",
-          "minOSVersion": "15.1"
         }
       ]
     }
   ],
   "news": [
+    {
+      "title": "Upstream update: Unbound 355.0_1.13.0",
+      "identifier": "auto-marioparaschiv-unbound-797422019",
+      "caption": "Detected official release loader-latest from marioparaschiv/unbound. The IPA reports app version 355.0_1.13.0 and requires iOS 16.0. Catalog metadata was refreshed by the scheduled GitHub Action. SideStore can offer the newer version after the source refresh; you still need to tap its Update button in SideStore.",
+      "date": "2026-11-26T19:39:30Z",
+      "tintColor": "5865F2",
+      "imageURL": "https://github.com/marioparaschiv.png",
+      "notify": true,
+      "url": "https://github.com/marioparaschiv/unbound/releases/tag/loader-latest"
+    },
     {
       "title": "Upstream update: Unbound 355.0_1.12.9",
       "identifier": "auto-marioparaschiv-unbound-796794716",
@@ -1323,16 +1317,6 @@
       "imageURL": "https://github.com/mirarr-app.png",
       "notify": true,
       "url": "https://github.com/mirarr-app/mirarr/releases/tag/3.3.2"
-    },
-    {
-      "title": "Call recorder? TrollRecorder is TrollStore-only",
-      "identifier": "note-call-recorder-2026-08-08",
-      "caption": "TrollRecorder (Lessica) is the only open-source iOS call recorder on GitHub, but it requires TrollStore (iOS 15-17, CoreTrust). It can NOT install via Sidestore/AltStore — Apple blocks call recording in the sandbox. We removed it from this Sidestore source; TrollStore users can install TRApp_4.5-3632.tipa directly from https://github.com/Lessica/TrollRecorder/releases/tag/v4.5-3632. No Sidestore-compatible call recorder exists.",
-      "date": "2026-08-08T18:00:00Z",
-      "tintColor": "8E8E93",
-      "imageURL": "https://github.com/Lessica.png",
-      "notify": true,
-      "url": "https://github.com/Lessica/TrollRecorder"
     }
   ]
 }
